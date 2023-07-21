@@ -403,7 +403,7 @@ p.nominalBounds = new cjs.Rectangle(-107.7,-148.8,211,282.8);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(41).call(this.frame_41).wait(18).call(this.frame_59).wait(39).call(this.frame_98).wait(44).call(this.frame_142).wait(99).call(this.frame_241).wait(1));
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'")
 	this.text.lineHeight = 8;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
@@ -420,16 +420,7 @@ p.nominalBounds = new cjs.Rectangle(-107.7,-148.8,211,282.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.text_1).wait(242));
 
-	// HTML5
-	this.text_2 = new cjs.Text("(HTML5)", "bold 10px 'Times New Roman'");
-	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 13;
-	this.text_2.lineWidth = 50;
-	this.text_2.parent = this;
-	this.text_2.setTransform(321.45,12.7);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_2).wait(242));
-
+	
 	// Titre
 	this.text_3 = new cjs.Text("L'APPAREIL RESPIRATOIRE DU POISSON.", "bold 14px 'Times New Roman'");
 	this.text_3.textAlign = "center";

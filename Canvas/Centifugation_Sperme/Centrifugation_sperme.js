@@ -899,7 +899,7 @@ p.nominalBounds = new cjs.Rectangle(100.5,89,284.8,124.69999999999999);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
 	this.text.lineHeight = 8;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
@@ -934,15 +934,6 @@ p.nominalBounds = new cjs.Rectangle(100.5,89,284.8,124.69999999999999);
 	this.instance_2.setTransform(27.35,40.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
-
-	// Calque_3
-	this.text_2 = new cjs.Text("(HTML5)", "italic 12px 'Times New Roman'", "#FF0000");
-	this.text_2.lineHeight = 15;
-	this.text_2.lineWidth = 65;
-	this.text_2.parent = this;
-	this.text_2.setTransform(326.5,25.7);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_2).wait(1));
 
 	// Titre
 	this.text_3 = new cjs.Text("LES CONSTITUANTS DU SPERME", "bold 18px 'Arial'", "#FF0000");

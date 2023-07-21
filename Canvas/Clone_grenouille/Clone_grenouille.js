@@ -912,7 +912,7 @@ p.nominalBounds = new cjs.Rectangle(-12,-12,24,24);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(891).call(this.frame_891).wait(1));
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
 	this.text.lineHeight = 8;
 	this.text.lineWidth = 104;
 	this.text.parent = this;

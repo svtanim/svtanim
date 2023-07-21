@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Besoins_organes_atlas_", frames: [[1102,352,620,350],[1899,753,70,170],[1102,0,620,350],[1724,241,122,200],[1102,704,450,322],[1971,753,63,98],[1811,787,63,98],[1724,559,188,119],[1724,680,173,105],[1899,680,8,47],[911,802,69,65],[1999,126,3,2],[2046,106,2,3],[2020,677,26,26],[2034,605,14,16],[1999,640,27,35],[1999,605,33,33],[2022,727,8,14],[2020,705,21,20],[2034,623,8,14],[1999,727,21,20],[763,841,130,11],[631,841,130,11],[1830,497,16,25],[1830,470,16,25],[1830,443,16,25],[1830,524,16,25],[2028,640,16,25],[1689,733,16,25],[1674,760,16,25],[1078,824,16,25],[1075,851,16,25],[765,854,16,25],[1876,787,16,25],[1876,814,16,25],[1060,824,16,25],[1876,841,16,25],[1692,760,16,25],[711,854,16,25],[729,854,16,25],[783,854,16,25],[1057,851,16,25],[747,854,16,25],[1716,858,16,25],[1734,858,16,25],[1788,858,16,25],[1698,858,16,25],[1752,858,16,25],[1770,858,16,25],[1644,858,16,25],[1680,858,16,25],[891,854,16,25],[801,854,16,25],[819,854,16,25],[1608,858,16,25],[855,854,16,25],[837,854,16,25],[1572,858,16,25],[1626,858,16,25],[1662,858,16,25],[1554,858,16,25],[1590,858,16,25],[873,854,16,25],[1724,443,104,104],[2026,106,18,17],[2006,106,18,17],[292,863,417,2],[0,0,1100,800],[982,843,73,16],[982,824,76,17],[1724,0,280,124],[1724,126,273,113],[292,849,126,7],[767,802,142,37],[1724,549,61,5],[2000,528,41,75],[1914,559,83,192],[1554,757,118,26],[1689,704,25,27],[2004,126,41,145],[1554,787,255,69],[0,802,187,59],[2006,0,40,104],[2004,273,40,144],[2000,419,41,107],[1971,853,67,12],[1848,401,150,156],[189,802,101,106],[292,802,185,45],[479,802,142,37],[623,802,142,37],[420,849,54,9],[479,841,150,20],[1554,704,133,51],[1848,241,154,158],[982,802,112,20],[1999,677,19,45]]}
+		{name:"Besoins_organes_atlas_", frames: [[1102,0,620,350],[1899,753,70,170],[1102,352,620,350],[1724,241,122,200],[1102,704,450,322],[1971,753,63,98],[1811,787,63,98],[1899,680,8,47],[911,802,69,65],[1999,126,3,2],[2046,106,2,3],[2020,677,26,26],[2034,605,14,16],[1999,640,27,35],[1999,605,33,33],[2022,727,8,14],[2020,705,21,20],[2034,623,8,14],[1999,727,21,20],[631,841,130,11],[763,841,130,11],[1716,858,16,25],[891,854,16,25],[1734,858,16,25],[1554,858,16,25],[1608,858,16,25],[1752,858,16,25],[1770,858,16,25],[1572,858,16,25],[1590,858,16,25],[1788,858,16,25],[1626,858,16,25],[1644,858,16,25],[1662,858,16,25],[1680,858,16,25],[1698,858,16,25],[1830,497,16,25],[1830,524,16,25],[801,854,16,25],[1830,470,16,25],[2028,640,16,25],[819,854,16,25],[837,854,16,25],[1689,733,16,25],[1060,824,16,25],[1674,760,16,25],[1075,851,16,25],[855,854,16,25],[783,854,16,25],[1830,443,16,25],[1692,760,16,25],[1078,824,16,25],[873,854,16,25],[747,854,16,25],[1876,841,16,25],[1057,851,16,25],[765,854,16,25],[1876,787,16,25],[711,854,16,25],[1876,814,16,25],[729,854,16,25],[1724,443,104,104],[292,863,417,2],[0,0,1100,800],[982,843,73,16],[982,824,76,17],[1724,0,280,124],[1724,126,273,113],[292,849,126,7],[479,802,142,37],[1724,549,61,5],[2000,528,41,75],[1914,559,83,192],[1554,757,118,26],[2004,126,41,145],[1554,787,255,69],[0,802,187,59],[2006,0,40,104],[2004,273,40,144],[2000,419,41,107],[1971,853,67,12],[1848,401,150,156],[189,802,101,106],[292,802,185,45],[767,802,142,37],[623,802,142,37],[420,849,54,9],[479,841,150,20],[1554,704,133,51],[1848,241,154,158],[1999,677,19,45],[1724,559,188,119],[1724,680,173,105],[2026,106,18,17],[2006,106,18,17],[1689,704,25,27],[982,802,112,20]]}
 ];
 
 
@@ -46,644 +46,644 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_305 = function() {
+(lib.CachedTexturedBitmap_116 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_306 = function() {
+(lib.CachedTexturedBitmap_117 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_307 = function() {
+(lib.CachedTexturedBitmap_120 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_308 = function() {
+(lib.CachedTexturedBitmap_121 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_309 = function() {
+(lib.CachedTexturedBitmap_122 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_310 = function() {
+(lib.CachedTexturedBitmap_123 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_311 = function() {
+(lib.CachedTexturedBitmap_124 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_312 = function() {
+(lib.CachedTexturedBitmap_125 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_313 = function() {
+(lib.CachedTexturedBitmap_126 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_314 = function() {
+(lib.CachedTexturedBitmap_127 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_315 = function() {
+(lib.CachedTexturedBitmap_135 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_316 = function() {
+(lib.CachedTexturedBitmap_136 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_324 = function() {
+(lib.CachedTexturedBitmap_144 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_325 = function() {
+(lib.CachedTexturedBitmap_145 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_333 = function() {
+(lib.CachedTexturedBitmap_146 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_334 = function() {
+(lib.CachedTexturedBitmap_147 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_335 = function() {
+(lib.CachedTexturedBitmap_148 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_336 = function() {
+(lib.CachedTexturedBitmap_149 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_337 = function() {
+(lib.CachedTexturedBitmap_150 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_338 = function() {
+(lib.CachedTexturedBitmap_151 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_339 = function() {
+(lib.CachedTexturedBitmap_152 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_340 = function() {
+(lib.CachedTexturedBitmap_153 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_341 = function() {
+(lib.CachedTexturedBitmap_154 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_342 = function() {
+(lib.CachedTexturedBitmap_155 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_343 = function() {
+(lib.CachedTexturedBitmap_156 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_344 = function() {
+(lib.CachedTexturedBitmap_157 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_345 = function() {
+(lib.CachedTexturedBitmap_158 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_346 = function() {
+(lib.CachedTexturedBitmap_159 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_347 = function() {
+(lib.CachedTexturedBitmap_160 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_348 = function() {
+(lib.CachedTexturedBitmap_161 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_349 = function() {
+(lib.CachedTexturedBitmap_162 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_350 = function() {
+(lib.CachedTexturedBitmap_163 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_351 = function() {
+(lib.CachedTexturedBitmap_164 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_352 = function() {
+(lib.CachedTexturedBitmap_165 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_353 = function() {
+(lib.CachedTexturedBitmap_166 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_354 = function() {
+(lib.CachedTexturedBitmap_167 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_355 = function() {
+(lib.CachedTexturedBitmap_168 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_356 = function() {
+(lib.CachedTexturedBitmap_169 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_357 = function() {
+(lib.CachedTexturedBitmap_170 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_358 = function() {
+(lib.CachedTexturedBitmap_171 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_359 = function() {
+(lib.CachedTexturedBitmap_172 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_360 = function() {
+(lib.CachedTexturedBitmap_173 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_361 = function() {
+(lib.CachedTexturedBitmap_174 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_362 = function() {
+(lib.CachedTexturedBitmap_175 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_363 = function() {
+(lib.CachedTexturedBitmap_176 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_364 = function() {
+(lib.CachedTexturedBitmap_177 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_365 = function() {
+(lib.CachedTexturedBitmap_178 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_366 = function() {
+(lib.CachedTexturedBitmap_179 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_367 = function() {
+(lib.CachedTexturedBitmap_180 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_368 = function() {
+(lib.CachedTexturedBitmap_181 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_369 = function() {
+(lib.CachedTexturedBitmap_182 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_370 = function() {
+(lib.CachedTexturedBitmap_183 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_371 = function() {
+(lib.CachedTexturedBitmap_184 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_372 = function() {
+(lib.CachedTexturedBitmap_185 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(58);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_373 = function() {
+(lib.CachedTexturedBitmap_186 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(59);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_374 = function() {
+(lib.CachedTexturedBitmap_187 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(60);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_375 = function() {
+(lib.CachedTexturedBitmap_188 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(61);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_376 = function() {
+(lib.CachedTexturedBitmap_191 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(62);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_377 = function() {
+(lib.CachedTexturedBitmap_192 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(63);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_378 = function() {
+(lib.CachedTexturedBitmap_193 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(64);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_379 = function() {
+(lib.CachedTexturedBitmap_194 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(65);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_380 = function() {
+(lib.CachedTexturedBitmap_196 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(66);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_381 = function() {
+(lib.CachedTexturedBitmap_197 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(67);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_382 = function() {
+(lib.CachedTexturedBitmap_198 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(68);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_383 = function() {
+(lib.CachedTexturedBitmap_199 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(69);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_385 = function() {
+(lib.CachedTexturedBitmap_200 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(70);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_386 = function() {
+(lib.CachedTexturedBitmap_201 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(71);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_387 = function() {
+(lib.CachedTexturedBitmap_202 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(72);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_388 = function() {
+(lib.CachedTexturedBitmap_203 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(73);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_389 = function() {
+(lib.CachedTexturedBitmap_205 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(74);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_390 = function() {
+(lib.CachedTexturedBitmap_206 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(75);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_391 = function() {
+(lib.CachedTexturedBitmap_207 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(76);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_392 = function() {
+(lib.CachedTexturedBitmap_208 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(77);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_393 = function() {
+(lib.CachedTexturedBitmap_209 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(78);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_394 = function() {
+(lib.CachedTexturedBitmap_210 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(79);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_395 = function() {
+(lib.CachedTexturedBitmap_211 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(80);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_396 = function() {
+(lib.CachedTexturedBitmap_212 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(81);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_397 = function() {
+(lib.CachedTexturedBitmap_213 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(82);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_398 = function() {
+(lib.CachedTexturedBitmap_214 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(83);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_399 = function() {
+(lib.CachedTexturedBitmap_215 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(84);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_400 = function() {
+(lib.CachedTexturedBitmap_216 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(85);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_401 = function() {
+(lib.CachedTexturedBitmap_219 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(86);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_402 = function() {
+(lib.CachedTexturedBitmap_220 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(87);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_403 = function() {
+(lib.CachedTexturedBitmap_221 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(88);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_404 = function() {
+(lib.CachedTexturedBitmap_222 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(89);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_405 = function() {
+(lib.CachedTexturedBitmap_224 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(90);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_408 = function() {
+(lib.CachedTexturedBitmap_225 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(91);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_409 = function() {
+(lib.CachedTexturedBitmap_226 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(92);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_410 = function() {
+(lib.CachedTexturedBitmap_227 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(93);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_411 = function() {
+(lib.CachedTexturedBitmap_228 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(94);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_412 = function() {
+(lib.CachedTexturedBitmap_229 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(95);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_413 = function() {
+(lib.CachedTexturedBitmap_230 = function() {
 	this.initialize(ss["Besoins_organes_atlas_"]);
 	this.gotoAndStop(96);
 }).prototype = p = new cjs.Sprite();
@@ -710,7 +710,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_413();
+	this.instance = new lib.CachedTexturedBitmap_224();
 	this.instance.parent = this;
 	this.instance.setTransform(-75.25,-179.05,7.9226,7.9226);
 
@@ -723,7 +723,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_403();
+	this.instance = new lib.CachedTexturedBitmap_214();
 	this.instance.parent = this;
 	this.instance.setTransform(-93.8,-22.4,1.0041,1.0041);
 
@@ -736,7 +736,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_396();
+	this.instance = new lib.CachedTexturedBitmap_207();
 	this.instance.parent = this;
 	this.instance.setTransform(-91.7,-29,0.9814,0.9814);
 
@@ -773,7 +773,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_385();
+	this.instance = new lib.CachedTexturedBitmap_196();
 	this.instance.parent = this;
 	this.instance.setTransform(-61.4,-31.85,0.5,0.5);
 
@@ -795,7 +795,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	// Calque_2
-	this.instance = new lib.CachedTexturedBitmap_385();
+	this.instance = new lib.CachedTexturedBitmap_196();
 	this.instance.parent = this;
 	this.instance.setTransform(-61.4,-31.85,0.5,0.5);
 
@@ -817,7 +817,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_386();
+	this.instance = new lib.CachedTexturedBitmap_197();
 	this.instance.parent = this;
 	this.instance.setTransform(-61.75,-28,0.5,0.5);
 
@@ -830,7 +830,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_390();
+	this.instance = new lib.CachedTexturedBitmap_201();
 	this.instance.parent = this;
 	this.instance.setTransform(-17.5,-32.2,0.8627,0.8627);
 
@@ -891,7 +891,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_412();
+	this.instance = new lib.CachedTexturedBitmap_230();
 	this.instance.parent = this;
 	this.instance.setTransform(-28,-5,0.5,0.5);
 
@@ -904,7 +904,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_402();
+	this.instance = new lib.CachedTexturedBitmap_213();
 	this.instance.parent = this;
 	this.instance.setTransform(-25.45,-19.55,0.5,0.5);
 
@@ -917,7 +917,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_409();
+	this.instance = new lib.CachedTexturedBitmap_220();
 	this.instance.parent = this;
 	this.instance.setTransform(-21.2,-5,0.5,0.5);
 
@@ -930,7 +930,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_400();
+	this.instance = new lib.CachedTexturedBitmap_211();
 	this.instance.parent = this;
 	this.instance.setTransform(-16.8,-2.9,0.5,0.5);
 
@@ -943,7 +943,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_389();
+	this.instance = new lib.CachedTexturedBitmap_200();
 	this.instance.parent = this;
 	this.instance.setTransform(-17.85,-1.4,0.5866,0.5866);
 
@@ -963,7 +963,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.text.parent = this;
 	this.text.setTransform(8.15,-3.4);
 
-	this.instance = new lib.CachedTexturedBitmap_408();
+	this.instance = new lib.CachedTexturedBitmap_219();
 	this.instance.parent = this;
 	this.instance.setTransform(-33.8,-1.85,0.5,0.5);
 
@@ -983,7 +983,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.text.parent = this;
 	this.text.setTransform(10.8,-3.4);
 
-	this.instance = new lib.CachedTexturedBitmap_408();
+	this.instance = new lib.CachedTexturedBitmap_219();
 	this.instance.parent = this;
 	this.instance.setTransform(-36.45,-1.6,0.5,0.5);
 
@@ -1003,7 +1003,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.text.parent = this;
 	this.text.setTransform(10.8,-3.4);
 
-	this.instance = new lib.CachedTexturedBitmap_408();
+	this.instance = new lib.CachedTexturedBitmap_219();
 	this.instance.parent = this;
 	this.instance.setTransform(-36.45,-1.6,0.5,0.5);
 
@@ -1016,7 +1016,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_394();
+	this.instance = new lib.CachedTexturedBitmap_205();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.0197,0.0197);
 
@@ -1029,7 +1029,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_398();
+	this.instance = new lib.CachedTexturedBitmap_209();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.0199,0.0199);
 
@@ -1042,7 +1042,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_397();
+	this.instance = new lib.CachedTexturedBitmap_208();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.2,-16.25,0.3122,0.3122);
 
@@ -1055,7 +1055,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_399();
+	this.instance = new lib.CachedTexturedBitmap_210();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.2,-16.3,0.3047,0.3047);
 
@@ -1068,7 +1068,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_405();
+	this.instance = new lib.CachedTexturedBitmap_216();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
 
@@ -1081,7 +1081,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_404();
+	this.instance = new lib.CachedTexturedBitmap_215();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
 
@@ -1094,7 +1094,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_387();
+	this.instance = new lib.CachedTexturedBitmap_198();
 	this.instance.parent = this;
 	this.instance.setTransform(-31.55,-1.65,0.5,0.5);
 
@@ -1107,7 +1107,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_388();
+	this.instance = new lib.CachedTexturedBitmap_199();
 	this.instance.parent = this;
 	this.instance.setTransform(-35.4,-9.2,0.5,0.5);
 
@@ -1146,169 +1146,169 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(169).call(this.frame_169).wait(1));
 
 	// Petits_points
-	this.instance = new lib.CachedTexturedBitmap_337();
+	this.instance = new lib.CachedTexturedBitmap_148();
 	this.instance.parent = this;
 	this.instance.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_338();
+	this.instance_1 = new lib.CachedTexturedBitmap_149();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_2 = new lib.CachedTexturedBitmap_339();
+	this.instance_2 = new lib.CachedTexturedBitmap_150();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_3 = new lib.CachedTexturedBitmap_340();
+	this.instance_3 = new lib.CachedTexturedBitmap_151();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_4 = new lib.CachedTexturedBitmap_341();
+	this.instance_4 = new lib.CachedTexturedBitmap_152();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_5 = new lib.CachedTexturedBitmap_342();
+	this.instance_5 = new lib.CachedTexturedBitmap_153();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_6 = new lib.CachedTexturedBitmap_343();
+	this.instance_6 = new lib.CachedTexturedBitmap_154();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_7 = new lib.CachedTexturedBitmap_344();
+	this.instance_7 = new lib.CachedTexturedBitmap_155();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_8 = new lib.CachedTexturedBitmap_345();
+	this.instance_8 = new lib.CachedTexturedBitmap_156();
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_9 = new lib.CachedTexturedBitmap_346();
+	this.instance_9 = new lib.CachedTexturedBitmap_157();
 	this.instance_9.parent = this;
 	this.instance_9.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_10 = new lib.CachedTexturedBitmap_347();
+	this.instance_10 = new lib.CachedTexturedBitmap_158();
 	this.instance_10.parent = this;
 	this.instance_10.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_11 = new lib.CachedTexturedBitmap_348();
+	this.instance_11 = new lib.CachedTexturedBitmap_159();
 	this.instance_11.parent = this;
 	this.instance_11.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_12 = new lib.CachedTexturedBitmap_349();
+	this.instance_12 = new lib.CachedTexturedBitmap_160();
 	this.instance_12.parent = this;
 	this.instance_12.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_13 = new lib.CachedTexturedBitmap_350();
+	this.instance_13 = new lib.CachedTexturedBitmap_161();
 	this.instance_13.parent = this;
 	this.instance_13.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_14 = new lib.CachedTexturedBitmap_351();
+	this.instance_14 = new lib.CachedTexturedBitmap_162();
 	this.instance_14.parent = this;
 	this.instance_14.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_15 = new lib.CachedTexturedBitmap_352();
+	this.instance_15 = new lib.CachedTexturedBitmap_163();
 	this.instance_15.parent = this;
 	this.instance_15.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_16 = new lib.CachedTexturedBitmap_353();
+	this.instance_16 = new lib.CachedTexturedBitmap_164();
 	this.instance_16.parent = this;
 	this.instance_16.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_17 = new lib.CachedTexturedBitmap_354();
+	this.instance_17 = new lib.CachedTexturedBitmap_165();
 	this.instance_17.parent = this;
 	this.instance_17.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_18 = new lib.CachedTexturedBitmap_355();
+	this.instance_18 = new lib.CachedTexturedBitmap_166();
 	this.instance_18.parent = this;
 	this.instance_18.setTransform(-1.35,2.3,0.6217,0.6217);
 
-	this.instance_19 = new lib.CachedTexturedBitmap_356();
+	this.instance_19 = new lib.CachedTexturedBitmap_167();
 	this.instance_19.parent = this;
 	this.instance_19.setTransform(-1.35,2.3,0.6217,0.6217);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},9).to({state:[{t:this.instance_1}]},6).to({state:[]},1).to({state:[{t:this.instance_2}]},10).to({state:[{t:this.instance_3}]},6).to({state:[]},1).to({state:[{t:this.instance_4}]},10).to({state:[{t:this.instance_5}]},6).to({state:[]},1).to({state:[{t:this.instance_6}]},10).to({state:[{t:this.instance_7}]},6).to({state:[]},1).to({state:[{t:this.instance_8}]},10).to({state:[{t:this.instance_9}]},6).to({state:[]},1).to({state:[{t:this.instance_10}]},10).to({state:[{t:this.instance_11}]},6).to({state:[]},1).to({state:[{t:this.instance_12}]},10).to({state:[{t:this.instance_13}]},6).to({state:[]},1).to({state:[{t:this.instance_14}]},10).to({state:[{t:this.instance_15}]},6).to({state:[]},1).to({state:[{t:this.instance_16}]},10).to({state:[{t:this.instance_17}]},6).to({state:[]},1).to({state:[{t:this.instance_18}]},10).to({state:[{t:this.instance_19}]},6).to({state:[]},1).wait(1));
 
 	// Petits_points
-	this.instance_20 = new lib.CachedTexturedBitmap_357();
+	this.instance_20 = new lib.CachedTexturedBitmap_168();
 	this.instance_20.parent = this;
 	this.instance_20.setTransform(-6.15,2.3,0.6217,0.6217);
 
-	this.instance_21 = new lib.CachedTexturedBitmap_358();
+	this.instance_21 = new lib.CachedTexturedBitmap_169();
 	this.instance_21.parent = this;
 	this.instance_21.setTransform(-6.15,2.3,0.6217,0.6217);
 
-	this.instance_22 = new lib.CachedTexturedBitmap_359();
+	this.instance_22 = new lib.CachedTexturedBitmap_170();
 	this.instance_22.parent = this;
 	this.instance_22.setTransform(-6.15,2.3,0.6217,0.6217);
 
-	this.instance_23 = new lib.CachedTexturedBitmap_360();
+	this.instance_23 = new lib.CachedTexturedBitmap_171();
 	this.instance_23.parent = this;
 	this.instance_23.setTransform(-6.15,2.3,0.6217,0.6217);
 
-	this.instance_24 = new lib.CachedTexturedBitmap_361();
+	this.instance_24 = new lib.CachedTexturedBitmap_172();
 	this.instance_24.parent = this;
 	this.instance_24.setTransform(-6.15,2.3,0.6217,0.6217);
 
-	this.instance_25 = new lib.CachedTexturedBitmap_362();
+	this.instance_25 = new lib.CachedTexturedBitmap_173();
 	this.instance_25.parent = this;
 	this.instance_25.setTransform(-6.15,2.3,0.6217,0.6217);
 
-	this.instance_26 = new lib.CachedTexturedBitmap_363();
+	this.instance_26 = new lib.CachedTexturedBitmap_174();
 	this.instance_26.parent = this;
 	this.instance_26.setTransform(-6.15,2.3,0.6217,0.6217);
 
-	this.instance_27 = new lib.CachedTexturedBitmap_364();
+	this.instance_27 = new lib.CachedTexturedBitmap_175();
 	this.instance_27.parent = this;
 	this.instance_27.setTransform(-6.15,2.3,0.6217,0.6217);
 
-	this.instance_28 = new lib.CachedTexturedBitmap_365();
+	this.instance_28 = new lib.CachedTexturedBitmap_176();
 	this.instance_28.parent = this;
 	this.instance_28.setTransform(-6.15,2.3,0.6217,0.6217);
 
-	this.instance_29 = new lib.CachedTexturedBitmap_366();
+	this.instance_29 = new lib.CachedTexturedBitmap_177();
 	this.instance_29.parent = this;
 	this.instance_29.setTransform(-6.15,2.3,0.6217,0.6217);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_20}]},5).to({state:[]},11).to({state:[{t:this.instance_21}]},6).to({state:[]},11).to({state:[{t:this.instance_22}]},6).to({state:[]},11).to({state:[{t:this.instance_23}]},6).to({state:[]},11).to({state:[{t:this.instance_24}]},6).to({state:[]},11).to({state:[{t:this.instance_25}]},6).to({state:[]},11).to({state:[{t:this.instance_26}]},6).to({state:[]},11).to({state:[{t:this.instance_27}]},6).to({state:[]},11).to({state:[{t:this.instance_28}]},6).to({state:[]},11).to({state:[{t:this.instance_29}]},6).to({state:[]},11).wait(1));
 
 	// Petits_points
-	this.instance_30 = new lib.CachedTexturedBitmap_367();
+	this.instance_30 = new lib.CachedTexturedBitmap_178();
 	this.instance_30.parent = this;
 	this.instance_30.setTransform(-10.95,2.3,0.6217,0.6217);
 
-	this.instance_31 = new lib.CachedTexturedBitmap_368();
+	this.instance_31 = new lib.CachedTexturedBitmap_179();
 	this.instance_31.parent = this;
 	this.instance_31.setTransform(-10.95,2.3,0.6217,0.6217);
 
-	this.instance_32 = new lib.CachedTexturedBitmap_369();
+	this.instance_32 = new lib.CachedTexturedBitmap_180();
 	this.instance_32.parent = this;
 	this.instance_32.setTransform(-10.95,2.3,0.6217,0.6217);
 
-	this.instance_33 = new lib.CachedTexturedBitmap_370();
+	this.instance_33 = new lib.CachedTexturedBitmap_181();
 	this.instance_33.parent = this;
 	this.instance_33.setTransform(-10.95,2.3,0.6217,0.6217);
 
-	this.instance_34 = new lib.CachedTexturedBitmap_371();
+	this.instance_34 = new lib.CachedTexturedBitmap_182();
 	this.instance_34.parent = this;
 	this.instance_34.setTransform(-10.95,2.3,0.6217,0.6217);
 
-	this.instance_35 = new lib.CachedTexturedBitmap_372();
+	this.instance_35 = new lib.CachedTexturedBitmap_183();
 	this.instance_35.parent = this;
 	this.instance_35.setTransform(-10.95,2.3,0.6217,0.6217);
 
-	this.instance_36 = new lib.CachedTexturedBitmap_373();
+	this.instance_36 = new lib.CachedTexturedBitmap_184();
 	this.instance_36.parent = this;
 	this.instance_36.setTransform(-10.95,2.3,0.6217,0.6217);
 
-	this.instance_37 = new lib.CachedTexturedBitmap_374();
+	this.instance_37 = new lib.CachedTexturedBitmap_185();
 	this.instance_37.parent = this;
 	this.instance_37.setTransform(-10.95,2.3,0.6217,0.6217);
 
-	this.instance_38 = new lib.CachedTexturedBitmap_375();
+	this.instance_38 = new lib.CachedTexturedBitmap_186();
 	this.instance_38.parent = this;
 	this.instance_38.setTransform(-10.95,2.3,0.6217,0.6217);
 
-	this.instance_39 = new lib.CachedTexturedBitmap_376();
+	this.instance_39 = new lib.CachedTexturedBitmap_187();
 	this.instance_39.parent = this;
 	this.instance_39.setTransform(-10.95,2.3,0.6217,0.6217);
 
@@ -1325,15 +1325,15 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(17).to({text:"1 mn",color:"#0000FF"},0).wait(17).to({text:"2 mn"},0).wait(18).to({text:"3 mn"},0).wait(16).to({text:"4 mn"},0).wait(17).to({text:"5 mn"},0).wait(17).to({text:"6 mn"},0).wait(17).to({text:"7 mn"},0).wait(17).to({text:"8 mn"},0).wait(17).to({text:"9 mn"},0).wait(16).to({text:"10 mn"},0).wait(1));
 
 	// Boitier
-	this.instance_40 = new lib.CachedTexturedBitmap_379();
+	this.instance_40 = new lib.CachedTexturedBitmap_228();
 	this.instance_40.parent = this;
 	this.instance_40.setTransform(15.5,-33.8,0.6217,0.6217);
 
-	this.instance_41 = new lib.CachedTexturedBitmap_378();
+	this.instance_41 = new lib.CachedTexturedBitmap_227();
 	this.instance_41.parent = this;
 	this.instance_41.setTransform(-26.65,-33.8,0.6217,0.6217);
 
-	this.instance_42 = new lib.CachedTexturedBitmap_377();
+	this.instance_42 = new lib.CachedTexturedBitmap_188();
 	this.instance_42.parent = this;
 	this.instance_42.setTransform(-32.1,-30.7,0.6217,0.6217);
 
@@ -1347,7 +1347,7 @@ p.nominalBounds = new cjs.Rectangle(-32.1,-33.8,64.7,67.8);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_336();
+	this.instance = new lib.CachedTexturedBitmap_147();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -1360,7 +1360,7 @@ p.nominalBounds = new cjs.Rectangle(-32.1,-33.8,64.7,67.8);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_335();
+	this.instance = new lib.CachedTexturedBitmap_146();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -1373,14 +1373,14 @@ p.nominalBounds = new cjs.Rectangle(-32.1,-33.8,64.7,67.8);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_333();
+	this.instance = new lib.CachedTexturedBitmap_144();
 	this.instance.parent = this;
 	this.instance.setTransform(-3.05,-4.65,0.7374,0.7374);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:true},1).wait(4).to({_off:false},0).wait(3).to({_off:true},1).wait(4));
 
 	// Calque_2
-	this.instance_1 = new lib.CachedTexturedBitmap_334();
+	this.instance_1 = new lib.CachedTexturedBitmap_145();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-7.85,-7.2,0.7374,0.7374);
 
@@ -1394,14 +1394,14 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.5,14.8);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_324();
+	this.instance = new lib.CachedTexturedBitmap_135();
 	this.instance.parent = this;
 	this.instance.setTransform(-3.05,-4.65,0.7449,0.7449);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:true},1).wait(4).to({_off:false},0).wait(3).to({_off:true},1).wait(4));
 
 	// Calque_2
-	this.instance_1 = new lib.CachedTexturedBitmap_325();
+	this.instance_1 = new lib.CachedTexturedBitmap_136();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-7.85,-7.25,0.7449,0.7449);
 
@@ -1415,14 +1415,14 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_2
-	this.instance = new lib.CachedTexturedBitmap_315();
+	this.instance = new lib.CachedTexturedBitmap_126();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.35,-8.85,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Calque_1
-	this.instance_1 = new lib.CachedTexturedBitmap_316();
+	this.instance_1 = new lib.CachedTexturedBitmap_127();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-7.75,-8.15,0.5,0.5);
 
@@ -1435,11 +1435,11 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_314();
+	this.instance = new lib.CachedTexturedBitmap_125();
 	this.instance.parent = this;
 	this.instance.setTransform(-5.55,-7.25,0.9298,0.9298);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_313();
+	this.instance_1 = new lib.CachedTexturedBitmap_124();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-12.15,-11.9,0.9298,0.9298);
 
@@ -1452,7 +1452,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_312();
+	this.instance = new lib.CachedTexturedBitmap_123();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.25,-0.25,0.2287,0.2287);
 
@@ -1465,7 +1465,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_311();
+	this.instance = new lib.CachedTexturedBitmap_122();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.65,-0.35,0.5,0.5);
 
@@ -1478,14 +1478,14 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_2
-	this.instance = new lib.CachedTexturedBitmap_309();
+	this.instance = new lib.CachedTexturedBitmap_120();
 	this.instance.parent = this;
 	this.instance.setTransform(13.55,-11.2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Calque_1
-	this.instance_1 = new lib.CachedTexturedBitmap_310();
+	this.instance_1 = new lib.CachedTexturedBitmap_121();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-17.35,-16.15,0.5,0.5);
 
@@ -1498,11 +1498,11 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_308();
+	this.instance = new lib.CachedTexturedBitmap_226();
 	this.instance.parent = this;
 	this.instance.setTransform(-43.45,-26,0.5,0.5);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_307();
+	this.instance_1 = new lib.CachedTexturedBitmap_225();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-47.1,-29.8,0.5,0.5);
 
@@ -1515,7 +1515,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_306();
+	this.instance = new lib.CachedTexturedBitmap_117();
 	this.instance.parent = this;
 	this.instance.setTransform(-15.8,-24.45,0.5,0.5);
 
@@ -1528,7 +1528,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_305();
+	this.instance = new lib.CachedTexturedBitmap_116();
 	this.instance.parent = this;
 	this.instance.setTransform(-15.8,-24.45,0.5,0.5);
 
@@ -1560,7 +1560,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.timeline.addTween(cjs.Tween.get(this.boutOxymetre1).wait(173).to({x:-416,y:-25.75},0).to({_off:true},1).wait(199));
 
 	// Fil
-	this.instance = new lib.CachedTexturedBitmap_391();
+	this.instance = new lib.CachedTexturedBitmap_202();
 	this.instance.parent = this;
 	this.instance.setTransform(-391.7,-131.15,0.5,0.5);
 
@@ -1577,7 +1577,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(21).to({text:"20.81 %"},0).wait(22).to({text:"20.72 %"},0).wait(22).to({text:"20.61 %"},0).wait(22).to({text:"20.49 %"},0).wait(22).to({text:"20.38 %"},0).wait(20).to({text:"20.27 %"},0).wait(23).to({text:"20.15 %"},0).wait(21).to({text:"20.06 %"},0).to({_off:true},1).wait(199));
 
 	// Titre
-	this.instance_1 = new lib.CachedTexturedBitmap_392();
+	this.instance_1 = new lib.CachedTexturedBitmap_203();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-354.8,-103.65,0.5,0.5);
 
@@ -1598,7 +1598,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},174).wait(199));
 
 	// Insertion_fil
-	this.instance_4 = new lib.CachedTexturedBitmap_393();
+	this.instance_4 = new lib.CachedTexturedBitmap_229();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(-358.3,-116.05,0.5,0.5);
 
@@ -1638,7 +1638,7 @@ p.nominalBounds = new cjs.Rectangle(-416.6,-131.1,138,117.39999999999999);
 	this.instance.setTransform(15.1,1.5);
 	this.instance.alpha = 0.25;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_395();
+	this.instance_1 = new lib.CachedTexturedBitmap_206();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-126.85,-34.7,1.0041,1.0041);
 
@@ -2062,7 +2062,7 @@ p.nominalBounds = new cjs.Rectangle(-35.5,9.1,71.1,20.799999999999997);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_2
-	this.instance = new lib.CachedTexturedBitmap_410();
+	this.instance = new lib.CachedTexturedBitmap_221();
 	this.instance.parent = this;
 	this.instance.setTransform(-35.25,3.15,0.5,0.5);
 
@@ -2073,7 +2073,7 @@ p.nominalBounds = new cjs.Rectangle(-35.5,9.1,71.1,20.799999999999997);
 	this.eauDuFond.name = "eauDuFond";
 	this.eauDuFond.parent = this;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_411();
+	this.instance_1 = new lib.CachedTexturedBitmap_222();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-40.55,-47.05,0.5,0.5);
 
@@ -2134,7 +2134,7 @@ p.nominalBounds = new cjs.Rectangle(-35.5,9.1,71.1,20.799999999999997);
 	this.timeline.addTween(cjs.Tween.get(this.goulotErlenHaut).wait(1));
 
 	// Verre_erlen
-	this.instance = new lib.CachedTexturedBitmap_401();
+	this.instance = new lib.CachedTexturedBitmap_212();
 	this.instance.parent = this;
 	this.instance.setTransform(338.85,116.25,0.5,0.5);
 
@@ -2659,11 +2659,11 @@ p.nominalBounds = new cjs.Rectangle(-35.5,9.1,71.1,20.799999999999997);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
-	this.text.lineHeight = 8;
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
+	this.text.lineHeight = 11;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
-	this.text.setTransform(443.2,378.45);
+	this.text.setTransform(479.55,365.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
@@ -2741,7 +2741,7 @@ p.nominalBounds = new cjs.Rectangle(-35.5,9.1,71.1,20.799999999999997);
 	this.timeline.addTween(cjs.Tween.get(this.okMuscle1).wait(1));
 
 	// Souligné
-	this.instance = new lib.CachedTexturedBitmap_380();
+	this.instance = new lib.CachedTexturedBitmap_191();
 	this.instance.parent = this;
 	this.instance.setTransform(8,21.5,0.5,0.5);
 
@@ -2963,17 +2963,8 @@ p.nominalBounds = new cjs.Rectangle(-35.5,9.1,71.1,20.799999999999997);
 
 	this.timeline.addTween(cjs.Tween.get(this.oxymetre1).wait(1));
 
-	// HTML5
-	this.text_3 = new cjs.Text("(HTML5)", "italic 7px 'Times New Roman'", "#FF0000");
-	this.text_3.lineHeight = 10;
-	this.text_3.lineWidth = 53;
-	this.text_3.parent = this;
-	this.text_3.setTransform(228.9,14.9);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_3).wait(1));
-
 	// Cadre
-	this.instance_4 = new lib.CachedTexturedBitmap_381();
+	this.instance_4 = new lib.CachedTexturedBitmap_192();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(0,0,0.5,0.5);
 
@@ -3061,29 +3052,29 @@ p.nominalBounds = new cjs.Rectangle(-35.5,9.1,71.1,20.799999999999997);
 	this.timeline.addTween(cjs.Tween.get(this.boutonRemplirSer).wait(1));
 
 	// Texte
-	this.text_4 = new cjs.Text("Déplacez chaque objet sur la partie droite afin de mettre en évidence les éventuels besoins d'un organe comme le muscle.", "italic 9px 'Times New Roman'");
-	this.text_4.lineHeight = 12;
-	this.text_4.lineWidth = 197;
-	this.text_4.parent = this;
-	this.text_4.setTransform(6.05,32.9);
+	this.text_3 = new cjs.Text("Déplacez chaque objet sur la partie droite afin de mettre en évidence les éventuels besoins d'un organe comme le muscle.", "italic 9px 'Times New Roman'");
+	this.text_3.lineHeight = 12;
+	this.text_3.lineWidth = 197;
+	this.text_3.parent = this;
+	this.text_3.setTransform(6.05,32.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.text_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.text_3).wait(1));
 
 	// Goulot_arrière_erlen_1
-	this.instance_5 = new lib.CachedTexturedBitmap_382();
+	this.instance_5 = new lib.CachedTexturedBitmap_193();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(242.85,209.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
 
 	// Goulot_arrière_erlen_2
-	this.instance_6 = new lib.CachedTexturedBitmap_383();
+	this.instance_6 = new lib.CachedTexturedBitmap_194();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(407.4,209.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.clipGlobal, new cjs.Rectangle(0,0,550,400), null);
+}).prototype = getMCSymbolPrototype(lib.clipGlobal, new cjs.Rectangle(0,0,585.6,400), null);
 
 
 // stage content:
@@ -3153,7 +3144,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"Canvas/Besoins_organes/Besoins_organes_atlas_.png", id:"Besoins_organes_atlas_"}
+		{src:"Canvas/Besoins_organes/Besoins_organes_atlas_.png?1688806663048", id:"Besoins_organes_atlas_"}
 	],
 	preloads: []
 };

@@ -4364,7 +4364,7 @@ p.nominalBounds = new cjs.Rectangle(-6.6,-108.1,19.4,126.3);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
 	this.text.lineHeight = 8;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
@@ -4391,7 +4391,8 @@ p.nominalBounds = new cjs.Rectangle(-6.6,-108.1,19.4,126.3);
 	// Souligné
 	this.instance_1 = new lib.CachedTexturedBitmap_519();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(12.5,23,0.5,0.5);
+	this.instance_1.setTransform(12.5,23,0.458,0.5);
+	//this.instance_1.setTransform(12.5,23,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
@@ -4413,15 +4414,7 @@ p.nominalBounds = new cjs.Rectangle(-6.6,-108.1,19.4,126.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.text_3).wait(1));
 
-	// HTML5
-	this.text_4 = new cjs.Text("(HTML5)", "10px 'Arial'", "#FF0000");
-	this.text_4.lineHeight = 13;
-	this.text_4.lineWidth = 53;
-	this.text_4.parent = this;
-	this.text_4.setTransform(234.7,12.65);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_4).wait(1));
-
+	
 	// Consignes
 	this.text_5 = new cjs.Text("La seringue est mobile.", "italic 10px 'Arial'", "#0000FF");
 	this.text_5.lineHeight = 13;
