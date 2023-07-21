@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Angle_Incidence_atlas_", frames: [[0,802,960,480],[0,0,1100,800],[962,1152,720,2],[2032,209,3,14],[2043,206,3,14],[2001,144,33,31],[2001,177,33,30],[2001,209,29,24],[2001,0,36,34],[2001,36,36,34],[2001,72,36,34],[2001,108,36,34],[2043,0,2,204],[2001,261,24,23],[1439,405,76,76],[1439,546,336,334],[1102,405,335,335],[2039,0,2,474],[1437,989,332,41],[1102,742,333,333],[1102,0,423,403],[2001,286,15,31],[1437,882,347,105],[962,1077,1005,73],[1527,273,472,271],[1527,0,472,271],[2018,286,17,18],[2001,235,26,24]]}
+		{name:"Angle_Incidence_atlas_", frames: [[0,802,960,480],[0,0,1100,800],[962,1152,720,2],[2032,209,3,14],[2043,206,3,14],[2001,144,33,31],[2001,177,33,30],[2001,209,29,24],[2001,0,36,34],[2001,36,36,34],[2001,108,36,34],[2001,72,36,34],[2043,0,2,204],[2001,261,24,23],[1439,405,76,76],[1439,546,336,334],[1102,405,335,335],[2039,0,2,474],[1437,989,332,41],[1102,742,333,333],[1102,0,423,403],[2001,286,15,31],[1437,882,347,105],[962,1077,1005,73],[1527,273,472,271],[1527,0,472,271],[2018,286,17,18],[2001,235,26,24]]}
 ];
 
 
@@ -18,189 +18,189 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_29 = function() {
+(lib.CachedTexturedBitmap_116 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_30 = function() {
+(lib.CachedTexturedBitmap_117 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_31 = function() {
+(lib.CachedTexturedBitmap_118 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_32 = function() {
+(lib.CachedTexturedBitmap_119 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_33 = function() {
+(lib.CachedTexturedBitmap_120 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_34 = function() {
+(lib.CachedTexturedBitmap_121 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_35 = function() {
+(lib.CachedTexturedBitmap_122 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_36 = function() {
+(lib.CachedTexturedBitmap_123 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_37 = function() {
+(lib.CachedTexturedBitmap_124 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_38 = function() {
+(lib.CachedTexturedBitmap_125 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_39 = function() {
+(lib.CachedTexturedBitmap_126 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_40 = function() {
+(lib.CachedTexturedBitmap_127 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_42 = function() {
+(lib.CachedTexturedBitmap_129 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_43 = function() {
+(lib.CachedTexturedBitmap_130 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_44 = function() {
+(lib.CachedTexturedBitmap_131 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_45 = function() {
+(lib.CachedTexturedBitmap_132 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_46 = function() {
+(lib.CachedTexturedBitmap_133 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_47 = function() {
+(lib.CachedTexturedBitmap_134 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_48 = function() {
+(lib.CachedTexturedBitmap_135 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_49 = function() {
+(lib.CachedTexturedBitmap_136 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_50 = function() {
+(lib.CachedTexturedBitmap_137 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_51 = function() {
+(lib.CachedTexturedBitmap_138 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_52 = function() {
+(lib.CachedTexturedBitmap_139 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_53 = function() {
+(lib.CachedTexturedBitmap_140 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_54 = function() {
+(lib.CachedTexturedBitmap_141 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_55 = function() {
+(lib.CachedTexturedBitmap_142 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_56 = function() {
+(lib.CachedTexturedBitmap_143 = function() {
 	this.initialize(ss["Angle_Incidence_atlas_"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
@@ -227,14 +227,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_55();
+	this.instance = new lib.CachedTexturedBitmap_142();
 	this.instance.parent = this;
 	this.instance.setTransform(-4.15,-4.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Calque_2
-	this.instance_1 = new lib.CachedTexturedBitmap_56();
+	this.instance_1 = new lib.CachedTexturedBitmap_143();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-7.4,-5.35,0.5,0.5);
 
@@ -247,14 +247,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_2
-	this.instance = new lib.CachedTexturedBitmap_53();
+	this.instance = new lib.CachedTexturedBitmap_140();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Calque_1
-	this.instance_1 = new lib.CachedTexturedBitmap_54();
+	this.instance_1 = new lib.CachedTexturedBitmap_141();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -282,7 +282,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Lumière
-	this.instance = new lib.CachedTexturedBitmap_52();
+	this.instance = new lib.CachedTexturedBitmap_139();
 	this.instance.parent = this;
 	this.instance.setTransform(161.6,107.45,0.1988,0.1988);
 
@@ -295,35 +295,35 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Contour_Terre
-	this.instance = new lib.CachedTexturedBitmap_45();
+	this.instance = new lib.CachedTexturedBitmap_132();
 	this.instance.parent = this;
 	this.instance.setTransform(-27.85,-27.85,0.1666,0.1666);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Axe_oblique
-	this.instance_1 = new lib.CachedTexturedBitmap_46();
+	this.instance_1 = new lib.CachedTexturedBitmap_133();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-0.4,-41.25,0.1666,0.1666);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// Equateur
-	this.instance_2 = new lib.CachedTexturedBitmap_47();
+	this.instance_2 = new lib.CachedTexturedBitmap_134();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(-27.7,-4.55,0.1666,0.1666);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
 
 	// Terre
-	this.instance_3 = new lib.CachedTexturedBitmap_48();
+	this.instance_3 = new lib.CachedTexturedBitmap_135();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(-27.65,-27.65,0.1666,0.1666);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
 	// Cache
-	this.instance_4 = new lib.CachedTexturedBitmap_49();
+	this.instance_4 = new lib.CachedTexturedBitmap_136();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(-27.85,-39.25,0.1666,0.1666);
 
@@ -370,7 +370,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_43();
+	this.instance = new lib.CachedTexturedBitmap_130();
 	this.instance.parent = this;
 	this.instance.setTransform(-9.5,-9.5,0.2515,0.2515);
 
@@ -383,7 +383,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_42();
+	this.instance = new lib.CachedTexturedBitmap_129();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.85,-5.05,0.5,0.5);
 
@@ -396,7 +396,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_40();
+	this.instance = new lib.CachedTexturedBitmap_127();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.45,-48.95,0.5,0.5);
 
@@ -409,51 +409,51 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// haze
-	this.instance = new lib.CachedTexturedBitmap_31();
+	this.instance = new lib.CachedTexturedBitmap_118();
 	this.instance.parent = this;
 	this.instance.setTransform(-39.2,-9.15,2.2343,2.2343);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_32();
+	this.instance_1 = new lib.CachedTexturedBitmap_119();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-39.2,-9.15,2.2343,2.2343);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},2).to({state:[]},1).wait(1));
 
 	// shine
-	this.instance_2 = new lib.CachedTexturedBitmap_33();
+	this.instance_2 = new lib.CachedTexturedBitmap_120();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(-34.15,-28.45,2.2343,2.2343);
 
-	this.instance_3 = new lib.CachedTexturedBitmap_34();
+	this.instance_3 = new lib.CachedTexturedBitmap_121();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(-34.15,-24.35,2.2343,2.2343);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2}]}).to({state:[{t:this.instance_3}]},2).to({state:[]},1).wait(1));
 
 	// ring
-	this.instance_4 = new lib.CachedTexturedBitmap_35();
+	this.instance_4 = new lib.CachedTexturedBitmap_122();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(-31.5,-22.1,2.2343,2.2343);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},3).wait(1));
 
 	// gradients
-	this.instance_5 = new lib.CachedTexturedBitmap_36();
+	this.instance_5 = new lib.CachedTexturedBitmap_123();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(-39.05,-32.8,2.2343,2.2343);
 
-	this.instance_6 = new lib.CachedTexturedBitmap_37();
+	this.instance_6 = new lib.CachedTexturedBitmap_124();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(-39.05,-32.8,2.2343,2.2343);
 
-	this.instance_7 = new lib.CachedTexturedBitmap_38();
+	this.instance_7 = new lib.CachedTexturedBitmap_125();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(-39.05,-32.8,2.2343,2.2343);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5}]}).to({state:[{t:this.instance_6}]},2).to({state:[{t:this.instance_7}]},1).wait(1));
 
 	// color
-	this.instance_8 = new lib.CachedTexturedBitmap_39();
+	this.instance_8 = new lib.CachedTexturedBitmap_126();
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(-39.05,-32.8,2.2343,2.2343);
 
@@ -475,7 +475,7 @@ p.nominalBounds = new cjs.Rectangle(-39.2,-32.8,80.6,76);
 	this.timeline.addTween(cjs.Tween.get(this.clipLumiere).wait(1));
 
 	// Calque_2
-	this.instance = new lib.CachedTexturedBitmap_50();
+	this.instance = new lib.CachedTexturedBitmap_137();
 	this.instance.parent = this;
 	this.instance.setTransform(88.9,9.75,0.2717,0.2717);
 
@@ -489,7 +489,7 @@ p.nominalBounds = new cjs.Rectangle(-39.2,-32.8,80.6,76);
 	this.text.parent = this;
 	this.text.setTransform(48.3,15.3,1,1.1518,0,29.7448,0);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_51();
+	this.instance_1 = new lib.CachedTexturedBitmap_138();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-0.25,-0.25,0.2717,0.2717);
 
@@ -518,7 +518,7 @@ p.nominalBounds = new cjs.Rectangle(-39.2,-32.8,80.6,76);
 	this.timeline.addTween(cjs.Tween.get(this.cercleRouge).to({scaleY:1.9883,x:276.7,y:136.15,alpha:0.6016},76).to({scaleY:1,x:275,y:200,alpha:1},1).to({scaleY:1.9883,x:276.7,y:264,alpha:0.5898},77).wait(1));
 
 	// Terre_bas
-	this.instance = new lib.CachedTexturedBitmap_44();
+	this.instance = new lib.CachedTexturedBitmap_131();
 	this.instance.parent = this;
 	this.instance.setTransform(191.1,116.6,0.5,0.5);
 
@@ -587,7 +587,7 @@ p.nominalBounds = new cjs.Rectangle(75,-144.8,153.1,197.9);
 	this.timeline.addTween(cjs.Tween.get(this.bouton3).wait(1));
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_42();
+	this.instance = new lib.CachedTexturedBitmap_129();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.85,-5.05,0.5,0.5);
 
@@ -816,11 +816,11 @@ p.nominalBounds = new cjs.Rectangle(75,-144.8,153.1,197.9);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Copyright_2
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
-	this.text.lineHeight = 8;
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
+	this.text.lineHeight = 11;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
-	this.text.setTransform(265.3,372.15);
+	this.text.setTransform(276.95,350.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
@@ -853,7 +853,7 @@ p.nominalBounds = new cjs.Rectangle(75,-144.8,153.1,197.9);
 	this.bouton4 = new lib.Carréboutonvide();
 	this.bouton4.name = "bouton4";
 	this.bouton4.parent = this;
-	this.bouton4.setTransform(53.7,243.2,1,1,0,0,0,-1.3,1.2);
+	this.bouton4.setTransform(53.8,243.2,1,1,0,0,0,-1.2,1.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.bouton4).wait(1));
 
@@ -874,7 +874,7 @@ p.nominalBounds = new cjs.Rectangle(75,-144.8,153.1,197.9);
 	this.timeline.addTween(cjs.Tween.get(this.clipGlobeTache).wait(1));
 
 	// Cadre
-	this.instance = new lib.CachedTexturedBitmap_29();
+	this.instance = new lib.CachedTexturedBitmap_116();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.3,-0.5,0.5,0.5);
 
@@ -889,29 +889,20 @@ p.nominalBounds = new cjs.Rectangle(75,-144.8,153.1,197.9);
 	this.timeline.addTween(cjs.Tween.get(this.planete).wait(1));
 
 	// Souligné
-	this.instance_1 = new lib.CachedTexturedBitmap_30();
+	this.instance_1 = new lib.CachedTexturedBitmap_117();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(11.8,21.3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
-	// Calque_3
-	this.text_2 = new cjs.Text("(HTML5)", "10px 'Arial'", "#660033");
-	this.text_2.lineHeight = 13;
-	this.text_2.lineWidth = 91;
+	// Titre
+	this.text_2 = new cjs.Text("ANGLE D'INCIDENCE ET ENERGIE RECUE", "bold 18px 'Arial'", "#660033");
+	this.text_2.lineHeight = 22;
+	this.text_2.lineWidth = 431;
 	this.text_2.parent = this;
-	this.text_2.setTransform(378,10.75);
+	this.text_2.setTransform(9,3.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.text_2).wait(1));
-
-	// Titre
-	this.text_3 = new cjs.Text("ANGLE D'INCIDENCE ET ENERGIE RECUE", "bold 18px 'Arial'", "#660033");
-	this.text_3.lineHeight = 22;
-	this.text_3.lineWidth = 431;
-	this.text_3.parent = this;
-	this.text_3.setTransform(9,3.8);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_3).wait(1));
 
 	// Clip_boutons
 	this.clipBouton = new lib.Clipbouton();
@@ -957,31 +948,31 @@ p.nominalBounds = new cjs.Rectangle(75,-144.8,153.1,197.9);
 	this.timeline.addTween(cjs.Tween.get(this.clipEnergie).wait(1));
 
 	// Légende_superficie
-	this.text_4 = new cjs.Text("Superficie du rayon sur le globe (en cm²)", "12px 'Times New Roman'", "#FFFFFF");
+	this.text_3 = new cjs.Text("Superficie du rayon sur le globe (en cm²)", "12px 'Times New Roman'", "#FFFFFF");
+	this.text_3.lineHeight = 15;
+	this.text_3.lineWidth = 117;
+	this.text_3.parent = this;
+	this.text_3.setTransform(14,313.15);
+
+	this.timeline.addTween(cjs.Tween.get(this.text_3).wait(1));
+
+	// Légende_energie
+	this.text_4 = new cjs.Text("Puissance reçue par le globe (en Watt/cm²)", "12px 'Times New Roman'", "#FFFFFF");
 	this.text_4.lineHeight = 15;
-	this.text_4.lineWidth = 117;
+	this.text_4.lineWidth = 122;
 	this.text_4.parent = this;
-	this.text_4.setTransform(14,313.15);
+	this.text_4.setTransform(14,358.65);
 
 	this.timeline.addTween(cjs.Tween.get(this.text_4).wait(1));
 
-	// Légende_energie
-	this.text_5 = new cjs.Text("Puissance reçue par le globe (en Watt/cm²)", "12px 'Times New Roman'", "#FFFFFF");
+	// Légende_angle
+	this.text_5 = new cjs.Text("Angle entre le rayon et le globe (en degrès)", "12px 'Times New Roman'", "#FFFFFF");
 	this.text_5.lineHeight = 15;
-	this.text_5.lineWidth = 122;
+	this.text_5.lineWidth = 119;
 	this.text_5.parent = this;
-	this.text_5.setTransform(14,358.65);
+	this.text_5.setTransform(14,268.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.text_5).wait(1));
-
-	// Légende_angle
-	this.text_6 = new cjs.Text("Angle entre le rayon et le globe (en degrès)", "12px 'Times New Roman'", "#FFFFFF");
-	this.text_6.lineHeight = 15;
-	this.text_6.lineWidth = 119;
-	this.text_6.parent = this;
-	this.text_6.setTransform(14,268.2);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_6).wait(1));
 
 	// Tableau
 	this.instance_2 = new lib.Tableau();
