@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+
+body header h1 {
+    text-align: center;
+    text-shadow: 0 0 100px #000000;
+    color: #000000;
+    font-size: 80pt;
+    background-color: rgba(248,248,240,1.00);
+    -webkit-box-shadow: inset 0px 0px;
+    box-shadow: inset 0px 0px;
+    letter-spacing: 3pt;
+    border-style: double;
+    border-color: rgba(236,221,221,1.00);
+}
+
+ body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        }
+
+
+      
+.row .col-md-3 p {
+    font-size: 10pt;
+    text-align: center;
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgba(23,34,232,1.00);
+    min-height: 50px;
+    max-height: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.row .col-md-3 div {
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(17,131,68,0.20);
+    border-color: #B1B0B0;
+    border-style: ridge;
+    webkit-box-shadow: 0 15px 50px rgba(17,131,68,0.20);
+    margin-top: 30px;
+}
+
+.row .container {
+    margin-top: 30px;
+
+}
+.container .col-xs-10.col-sm-10.col-md-10.col-lg-10 a {
+    text-align: right;
+    font-size: 13px;
+    font-style: italic;
+  
+}
+
+
+
+body h2 {
+    color: rgba(243,6,6,1.00);
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+
+.row .col-xs-12.col-sm-6.col-md-3.col-lg-3 div {
+     width: 170px;
+    padding-top:3px;
+    border: 3px solid #B1B0B0;
+    background: #fff;
+}
+.container-fluid .container div {
+    font-style: italic;
+    font-size: 9pt;
+    text-align: right;
+}
+.formatNom {
+    font-size: 9pt;
+    font-style: italic;
+    text-align: right;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+.container .col-xs-10.col-sm-10.col-md-10.col-lg-10 .formtMail {
+    color: rgba(17,29,166,1.00);
+    margin-top: -50px;
+}
