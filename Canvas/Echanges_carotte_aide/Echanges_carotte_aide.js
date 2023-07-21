@@ -3004,7 +3004,7 @@ p.nominalBounds = new cjs.Rectangle(-16.5,-51.1,35.5,90.7);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   http://svtanim.pagesperso-orange.fr/", "italic 6px 'Arial'");
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'")
 	this.text.lineHeight = 9;
 	this.text.lineWidth = 144;
 	this.text.parent = this;

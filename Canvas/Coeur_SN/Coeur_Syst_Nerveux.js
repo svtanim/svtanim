@@ -1134,15 +1134,9 @@ p.nominalBounds = new cjs.Rectangle(-2.4,-30.5,93.5,48.5);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
-	// HTML5
-	this.instance = new lib.CachedTexturedBitmap_1();
-	this.instance.parent = this;
-	this.instance.setTransform(366.2,14,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
+	
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
 	this.text.lineHeight = 8;
 	this.text.lineWidth = 104;
 	this.text.parent = this;

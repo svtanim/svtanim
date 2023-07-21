@@ -12424,14 +12424,7 @@ p.nominalBounds = new cjs.Rectangle(-0.5,-16.7,550,443.8);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
-	// Calque_2
-	this.text = new cjs.Text("(HTML5)", "italic 8px 'Arial'", "#FF0000");
-	this.text.lineHeight = 11;
-	this.text.lineWidth = 34;
-	this.text.parent = this;
-	this.text.setTransform(303.1,24.55);
-
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+	
 
 	// Trait
 	this.trait = new lib.Traistemps();
@@ -12466,7 +12459,7 @@ p.nominalBounds = new cjs.Rectangle(-0.5,-16.7,550,443.8);
 	this.timeline.addTween(cjs.Tween.get(this.clipSombre2).wait(1));
 
 	// Copyright_2
-	this.text_1 = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
+	this.text_1 = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'")
 	this.text_1.lineHeight = 8;
 	this.text_1.lineWidth = 104;
 	this.text_1.parent = this;
