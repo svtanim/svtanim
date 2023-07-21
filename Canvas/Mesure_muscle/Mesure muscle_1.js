@@ -3528,7 +3528,7 @@ p.nominalBounds = new cjs.Rectangle(60.9,63.3,245.29999999999998,279.09999999999
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
 	this.text.lineHeight = 8;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
@@ -3653,15 +3653,6 @@ p.nominalBounds = new cjs.Rectangle(60.9,63.3,245.29999999999998,279.09999999999
 	new cjs.ButtonHelper(this.tricepsTransparent, 0, 1, 1);
 
 	this.timeline.addTween(cjs.Tween.get(this.tricepsTransparent).wait(1));
-
-	// HTML5
-	this.text_4 = new cjs.Text("(HTML5)", "10px 'Arial'");
-	this.text_4.lineHeight = 13;
-	this.text_4.lineWidth = 61;
-	this.text_4.parent = this;
-	this.text_4.setTransform(272,20.85);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_4).wait(1));
 
 	// Titre
 	this.text_5 = new cjs.Text("MUSCLES ET MOUVEMENTS", "18px 'Arial'");

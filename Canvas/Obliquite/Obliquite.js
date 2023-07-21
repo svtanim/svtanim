@@ -331,8 +331,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
-	this.text.lineHeight = 8;
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");	this.text.lineHeight = 8;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
 	this.text.setTransform(355.85,7.9);
@@ -475,14 +474,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.age.setTransform(264.05,289.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.age).wait(1));
-
-	// Calque_4
-	this.text_10 = new cjs.Text("(HTML5)", "9px 'Arial'", "#FF0000");
-	this.text_10.textAlign = "center";
-	this.text_10.lineHeight = 12;
-	this.text_10.lineWidth = 57;
-	this.text_10.parent = this;
-	this.text_10.setTransform(316,17.95);
 
 	this.timeline.addTween(cjs.Tween.get(this.text_10).wait(1));
 

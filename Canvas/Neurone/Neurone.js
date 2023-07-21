@@ -1308,7 +1308,7 @@ p.nominalBounds = new cjs.Rectangle(-4,-15.7,417.5,25.5);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Copyright_2
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Times New Roman'");
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
 	this.text.lineHeight = 8;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
@@ -1412,15 +1412,6 @@ p.nominalBounds = new cjs.Rectangle(-4,-15.7,417.5,25.5);
 	this.instance_3.setTransform(10.05,25.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
-
-	// HTML5
-	this.text_10 = new cjs.Text("(HTML5)", "italic 9px 'Times New Roman'", "#0000FF");
-	this.text_10.lineHeight = 12;
-	this.text_10.lineWidth = 68;
-	this.text_10.parent = this;
-	this.text_10.setTransform(182,32.55);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_10).wait(1));
 
 	// Titre
 	this.text_11 = new cjs.Text("LA COMMUNICATION ENTRE LES NEURONES", "bold 15px 'Times New Roman'", "#0000FF");

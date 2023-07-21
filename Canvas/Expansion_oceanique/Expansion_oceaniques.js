@@ -874,7 +874,7 @@ p.nominalBounds = new cjs.Rectangle(-188,-157.5,271,315.6);
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1832));
 
 	// Copyright
-	this.text_1 = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
+	this.text_1 = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
 	this.text_1.lineHeight = 8;
 	this.text_1.lineWidth = 104;
 	this.text_1.parent = this;
@@ -888,15 +888,6 @@ p.nominalBounds = new cjs.Rectangle(-188,-157.5,271,315.6);
 	this.instance.setTransform(5.5,20.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1832));
-
-	// Calque_2
-	this.text_2 = new cjs.Text("(HTML5)", "italic 12px 'Times New Roman'", "#FF0000");
-	this.text_2.lineHeight = 15;
-	this.text_2.lineWidth = 80;
-	this.text_2.parent = this;
-	this.text_2.setTransform(219.95,5.8);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_2).wait(1832));
 
 	// Titre
 	this.text_3 = new cjs.Text("L'EXPANSION OCEANIQUE", "bold 16px 'Times New Roman'", "#FF0000");

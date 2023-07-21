@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Atlantique_Sud_atlas_", frames: [[0,812,1085,737],[0,0,1105,810]]},
-		{name:"Atlantique_Sud_atlas_2", frames: [[491,794,329,153],[491,645,343,147],[0,507,489,756],[1130,0,800,603],[1081,507,36,42],[836,645,121,118],[822,794,227,190],[1932,219,112,31],[491,949,191,152],[1932,103,42,114],[684,949,94,148],[1109,551,19,17],[905,765,17,17],[885,765,18,17],[1331,605,216,39],[1109,570,17,19],[1932,0,101,101],[959,645,115,102],[836,765,25,25],[924,765,14,15],[1081,551,26,48],[1549,605,154,30],[1331,646,520,2],[491,507,588,136],[0,0,1128,505],[1081,605,248,265],[959,749,112,31],[863,765,20,17]]}
+		{name:"Atlantique_Sud_atlas_2", frames: [[491,794,329,153],[491,645,343,147],[0,507,489,756],[1130,0,800,603],[1081,507,36,42],[836,645,121,118],[822,794,227,190],[959,749,112,31],[491,949,191,152],[1932,103,42,114],[684,949,94,148],[1109,572,19,17],[905,765,17,17],[885,765,18,17],[1109,551,17,19],[1932,0,101,101],[959,645,115,102],[836,765,25,25],[924,765,14,15],[1081,551,26,48],[1331,605,154,30],[1487,605,520,2],[491,507,588,136],[0,0,1128,505],[1081,605,248,265],[1932,219,112,31],[863,765,20,17]]}
 ];
 
 
@@ -124,100 +124,93 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_2 = function() {
+(lib.CachedTexturedBitmap_20 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_20 = function() {
+(lib.CachedTexturedBitmap_21 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_21 = function() {
+(lib.CachedTexturedBitmap_22 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_22 = function() {
+(lib.CachedTexturedBitmap_23 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_23 = function() {
+(lib.CachedTexturedBitmap_24 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_24 = function() {
+(lib.CachedTexturedBitmap_25 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_25 = function() {
+(lib.CachedTexturedBitmap_3 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_3 = function() {
+(lib.CachedTexturedBitmap_4 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_4 = function() {
+(lib.CachedTexturedBitmap_5 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_5 = function() {
+(lib.CachedTexturedBitmap_6 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_6 = function() {
+(lib.CachedTexturedBitmap_7 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_7 = function() {
+(lib.CachedTexturedBitmap_8 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_8 = function() {
-	this.initialize(ss["Atlantique_Sud_atlas_2"]);
-	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedTexturedBitmap_9 = function() {
 	this.initialize(ss["Atlantique_Sud_atlas_2"]);
-	this.gotoAndStop(27);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -508,7 +501,7 @@ p.nominalBounds = new cjs.Rectangle(-12.1,-11.9,23.9,23.9);
 
 
 // stage content:
-(lib.Atlantique_Sud_HTML5_Canvas = function(mode,startPosition,loop) {
+(lib.Atlantique_Sud = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
@@ -934,34 +927,27 @@ p.nominalBounds = new cjs.Rectangle(-12.1,-11.9,23.9,23.9);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Copyright
-	this.instance_1 = new lib.CachedTexturedBitmap_2();
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 8px 'Arial'", "#FFFFFF");
+	this.text.lineHeight = 11;
+	this.text.lineWidth = 104;
+	this.text.parent = this;
+	this.text.setTransform(443.5,357.75);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// CC_BY_NC
+	this.instance_1 = new lib.CachedTexturedBitmap_3();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(441.2,376.45,0.5,0.5);
+	this.instance_1.setTransform(4.5,383.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
-	// CC_BY_NC
-	this.instance_2 = new lib.CachedTexturedBitmap_3();
+	// Souligné
+	this.instance_2 = new lib.CachedTexturedBitmap_4();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(4.5,383.5,0.5,0.5);
+	this.instance_2.setTransform(12.05,23.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
-
-	// Souligné
-	this.instance_3 = new lib.CachedTexturedBitmap_4();
-	this.instance_3.parent = this;
-	this.instance_3.setTransform(12.05,23.05,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
-
-	// Calque_1
-	this.text = new cjs.Text("(HTML5)", "italic 12px 'Times New Roman'", "#FF0000");
-	this.text.lineHeight = 15;
-	this.text.lineWidth = 77;
-	this.text.parent = this;
-	this.text.setTransform(279.05,9.65);
-
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	// Titre
 	this.text_1 = new cjs.Text("Géographie de l'hémisphère sud", "bold 17px 'Arial'", "#FF0000");
@@ -982,11 +968,11 @@ p.nominalBounds = new cjs.Rectangle(-12.1,-11.9,23.9,23.9);
 	this.timeline.addTween(cjs.Tween.get(this.text_2).wait(1));
 
 	// Légendes
-	this.instance_4 = new lib.CachedTexturedBitmap_5();
-	this.instance_4.parent = this;
-	this.instance_4.setTransform(87.5,34.5,0.5,0.5);
+	this.instance_3 = new lib.CachedTexturedBitmap_5();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(87.5,34.5,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
 	// Photo___textes
 	this.text_3 = new cjs.Text("D'après PaléoDico.com", "italic 5px 'Arial'");
@@ -1019,23 +1005,23 @@ p.nominalBounds = new cjs.Rectangle(-12.1,-11.9,23.9,23.9);
 	this.text_7.parent = this;
 	this.text_7.setTransform(85,35.35);
 
-	this.instance_5 = new lib.Bitmap100();
+	this.instance_4 = new lib.Bitmap100();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(21,91,0.1885,0.2783);
+
+	this.instance_5 = new lib.Bitmap101();
 	this.instance_5.parent = this;
-	this.instance_5.setTransform(21,91,0.1885,0.2783);
+	this.instance_5.setTransform(280,42,0.1837,0.1837);
 
-	this.instance_6 = new lib.Bitmap101();
+	this.instance_6 = new lib.Bitmap102();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(280,42,0.1837,0.1837);
+	this.instance_6.setTransform(285,87,0.106,0.0684);
 
-	this.instance_7 = new lib.Bitmap102();
+	this.instance_7 = new lib.Bitmap103();
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(285,87,0.106,0.0684);
+	this.instance_7.setTransform(21,36,0.0755,0.0768);
 
-	this.instance_8 = new lib.Bitmap103();
-	this.instance_8.parent = this;
-	this.instance_8.setTransform(21,36,0.0755,0.0768);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.text_7},{t:this.text_6},{t:this.text_5},{t:this.text_4},{t:this.text_3}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.text_7},{t:this.text_6},{t:this.text_5},{t:this.text_4},{t:this.text_3}]}).wait(1));
 
 	// Consignes
 	this.text_8 = new cjs.Text("Hormis l'Afrique, la souris permet de déplacer les continents.  ", "bold 14px 'Arial'", "#FF0000");
@@ -1097,11 +1083,11 @@ p.nominalBounds = new cjs.Rectangle(-12.1,-11.9,23.9,23.9);
 	this.timeline.addTween(cjs.Tween.get(this.inde).wait(1));
 
 	// Afrique
-	this.instance_9 = new lib.Afrique();
-	this.instance_9.parent = this;
-	this.instance_9.setTransform(250.65,231.15);
+	this.instance_8 = new lib.Afrique();
+	this.instance_8.parent = this;
+	this.instance_8.setTransform(250.65,231.15);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1));
 
 	// Amérique_Sud
 	this.ameriqueSud = new lib.AmériqueSud();
@@ -1112,11 +1098,11 @@ p.nominalBounds = new cjs.Rectangle(-12.1,-11.9,23.9,23.9);
 	this.timeline.addTween(cjs.Tween.get(this.ameriqueSud).wait(1));
 
 	// Océan
-	this.instance_10 = new lib.CachedTexturedBitmap_6();
-	this.instance_10.parent = this;
-	this.instance_10.setTransform(-7.5,161.9,0.5,0.5);
+	this.instance_9 = new lib.CachedTexturedBitmap_6();
+	this.instance_9.parent = this;
+	this.instance_9.setTransform(-7.5,161.9,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(267.5,199.1,289,215.29999999999998);
