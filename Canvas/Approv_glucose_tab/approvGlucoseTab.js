@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"approvGlucoseTab_atlas_", frames: [[0,0,1318,1318]]},
-		{name:"approvGlucoseTab_atlas_2", frames: [[884,1026,63,51],[1993,147,52,144],[1976,970,43,38],[1431,867,357,221],[2044,332,2,34],[2037,430,8,14],[1041,887,21,20],[1010,996,58,59],[1958,847,8,14],[2016,293,21,20],[1993,293,21,21],[1958,832,12,13],[1926,430,109,25],[1790,930,84,79],[2044,293,2,37],[764,1187,661,2],[1876,970,98,39],[1100,0,329,795],[0,0,1098,798],[764,800,275,119],[1100,797,329,388],[1900,461,143,369],[467,800,295,411],[764,1026,118,32],[1876,930,86,27],[2017,832,22,57],[0,800,465,395],[1790,1033,60,51],[1431,0,493,459],[1431,461,467,404],[1900,832,56,17],[764,1000,244,24],[1790,1011,249,20],[1926,328,116,100],[1041,800,53,85],[1972,832,43,136],[867,921,105,68],[1926,0,120,145],[1790,867,180,61],[764,921,101,77],[974,921,91,73],[1067,887,23,35],[2017,891,23,35],[1926,147,65,179],[1067,924,22,34],[1852,1033,71,31],[1925,1033,87,22]]}
+		{name:"approvGlucoseTab_atlas_2", frames: [[884,1026,63,51],[1993,147,52,144],[1976,970,43,38],[1431,867,357,221],[2044,332,2,34],[1010,996,58,59],[1876,970,98,39],[1790,1033,60,51],[1790,867,180,61],[2037,430,8,14],[2016,293,21,20],[1958,847,8,14],[1041,887,21,20],[1993,293,21,21],[1958,832,12,13],[1926,430,109,25],[1790,930,84,79],[2044,293,2,37],[764,1187,661,2],[1100,0,329,795],[0,0,1098,798],[764,800,275,119],[1100,797,329,388],[1900,461,143,369],[467,800,295,411],[764,1026,118,32],[1876,930,86,27],[2017,832,22,57],[0,800,465,395],[1431,0,493,459],[1431,461,467,404],[1900,832,56,17],[764,1000,244,24],[1790,1011,249,20],[1926,328,116,100],[1041,800,53,85],[1972,832,43,136],[867,921,105,68],[1926,0,120,145],[764,921,101,77],[974,921,91,73],[2017,891,23,35],[1067,887,23,35],[1926,147,65,179],[1067,924,22,34],[1852,1033,71,31],[1925,1033,87,22]]}
 ];
 
 
@@ -40,308 +40,308 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_1 = function() {
+(lib.CachedTexturedBitmap_804 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_13 = function() {
+(lib.CachedTexturedBitmap_805 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_14 = function() {
+(lib.CachedTexturedBitmap_806 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_2 = function() {
+(lib.CachedTexturedBitmap_807 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_22 = function() {
+(lib.CachedTexturedBitmap_808 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_23 = function() {
+(lib.CachedTexturedBitmap_816 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_24 = function() {
+(lib.CachedTexturedBitmap_817 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_25 = function() {
+(lib.CachedTexturedBitmap_825 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_26 = function() {
+(lib.CachedTexturedBitmap_826 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_27 = function() {
+(lib.CachedTexturedBitmap_827 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_28 = function() {
+(lib.CachedTexturedBitmap_828 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_29 = function() {
+(lib.CachedTexturedBitmap_829 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_3 = function() {
+(lib.CachedTexturedBitmap_830 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_30 = function() {
+(lib.CachedTexturedBitmap_831 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_31 = function() {
+(lib.CachedTexturedBitmap_832 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_32 = function() {
+(lib.CachedTexturedBitmap_833 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_33 = function() {
+(lib.CachedTexturedBitmap_834 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_34 = function() {
+(lib.CachedTexturedBitmap_835 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_35 = function() {
+(lib.CachedTexturedBitmap_836 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_36 = function() {
+(lib.CachedTexturedBitmap_837 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_37 = function() {
+(lib.CachedTexturedBitmap_838 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_38 = function() {
+(lib.CachedTexturedBitmap_839 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_39 = function() {
+(lib.CachedTexturedBitmap_840 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_4 = function() {
+(lib.CachedTexturedBitmap_841 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_40 = function() {
+(lib.CachedTexturedBitmap_842 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_41 = function() {
+(lib.CachedTexturedBitmap_843 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_42 = function() {
+(lib.CachedTexturedBitmap_844 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_43 = function() {
+(lib.CachedTexturedBitmap_845 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_44 = function() {
+(lib.CachedTexturedBitmap_846 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_45 = function() {
+(lib.CachedTexturedBitmap_847 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_46 = function() {
+(lib.CachedTexturedBitmap_848 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_47 = function() {
+(lib.CachedTexturedBitmap_849 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_48 = function() {
+(lib.CachedTexturedBitmap_850 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_49 = function() {
+(lib.CachedTexturedBitmap_851 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_5 = function() {
+(lib.CachedTexturedBitmap_852 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_50 = function() {
+(lib.CachedTexturedBitmap_853 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_51 = function() {
+(lib.CachedTexturedBitmap_854 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_52 = function() {
+(lib.CachedTexturedBitmap_855 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_53 = function() {
+(lib.CachedTexturedBitmap_856 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_54 = function() {
+(lib.CachedTexturedBitmap_857 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_55 = function() {
+(lib.CachedTexturedBitmap_858 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_56 = function() {
+(lib.CachedTexturedBitmap_859 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_57 = function() {
+(lib.CachedTexturedBitmap_860 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_2"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_58 = function() {
+(lib.CachedTexturedBitmap_861 = function() {
 	this.initialize(ss["approvGlucoseTab_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -368,7 +368,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_58();
+	this.instance = new lib.CachedTexturedBitmap_861();
 	this.instance.parent = this;
 	this.instance.setTransform(-239.45,-478.45,0.3635,0.3635);
 
@@ -381,7 +381,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Tableau
-	this.instance = new lib.CachedTexturedBitmap_39();
+	this.instance = new lib.CachedTexturedBitmap_842();
 	this.instance.parent = this;
 	this.instance.setTransform(-187.1,-11.15,0.4631,0.4631);
 
@@ -416,11 +416,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.text_2).wait(1));
 
 	// Ecran
-	this.instance_1 = new lib.CachedTexturedBitmap_41();
+	this.instance_1 = new lib.CachedTexturedBitmap_844();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-187.25,-13.2,0.4631,0.4631);
 
-	this.instance_2 = new lib.CachedTexturedBitmap_40();
+	this.instance_2 = new lib.CachedTexturedBitmap_843();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(-193.45,-25.85,0.4631,0.4631);
 
@@ -433,7 +433,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_57();
+	this.instance = new lib.CachedTexturedBitmap_860();
 	this.instance.parent = this;
 	this.instance.setTransform(-95,-23.55,2.1742,2.1742);
 
@@ -446,14 +446,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_2
-	this.instance = new lib.CachedTexturedBitmap_52();
+	this.instance = new lib.CachedTexturedBitmap_855();
 	this.instance.parent = this;
 	this.instance.setTransform(-51.6,-32.2,0.9375,0.9375);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Calque_1
-	this.instance_1 = new lib.CachedTexturedBitmap_53();
+	this.instance_1 = new lib.CachedTexturedBitmap_856();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-10.85,-32.2,0.9375,0.9375);
 
@@ -466,7 +466,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_55();
+	this.instance = new lib.CachedTexturedBitmap_858();
 	this.instance.parent = this;
 	this.instance.setTransform(-7.6,-23.8,0.6971,0.6971);
 
@@ -479,7 +479,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_45();
+	this.instance = new lib.CachedTexturedBitmap_848();
 	this.instance.parent = this;
 	this.instance.setTransform(-57.05,-49.4,0.987,0.987);
 
@@ -492,7 +492,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_37();
+	this.instance = new lib.CachedTexturedBitmap_840();
 	this.instance.parent = this;
 	this.instance.setTransform(-91.7,-29,2.1252,2.1252);
 
@@ -505,7 +505,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_56();
+	this.instance = new lib.CachedTexturedBitmap_859();
 	this.instance.parent = this;
 	this.instance.setTransform(-24.5,-20.7,0.6971,0.6971);
 
@@ -518,7 +518,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_54();
+	this.instance = new lib.CachedTexturedBitmap_857();
 	this.instance.parent = this;
 	this.instance.setTransform(-16.15,-89.1,0.5,0.5);
 
@@ -531,7 +531,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_47();
+	this.instance = new lib.CachedTexturedBitmap_850();
 	this.instance.parent = this;
 	this.instance.setTransform(-15.05,-89.25,0.6971,0.6971);
 
@@ -544,7 +544,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_50();
+	this.instance = new lib.CachedTexturedBitmap_853();
 	this.instance.parent = this;
 	this.instance.setTransform(-35.55,-25.4,0.6971,0.6971);
 
@@ -557,7 +557,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_44();
+	this.instance = new lib.CachedTexturedBitmap_847();
 	this.instance.parent = this;
 	this.instance.setTransform(-62.2,-9.85,0.5,0.5);
 
@@ -570,7 +570,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_43();
+	this.instance = new lib.CachedTexturedBitmap_846();
 	this.instance.parent = this;
 	this.instance.setTransform(-60.85,-12.15,0.5,0.5);
 
@@ -583,7 +583,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_49();
+	this.instance = new lib.CachedTexturedBitmap_852();
 	this.instance.parent = this;
 	this.instance.setTransform(-41.65,-100.35,0.6971,0.6971);
 
@@ -596,7 +596,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_48();
+	this.instance = new lib.CachedTexturedBitmap_851();
 	this.instance.parent = this;
 	this.instance.setTransform(-36.55,-46.7,0.6971,0.6971);
 
@@ -609,7 +609,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_51();
+	this.instance = new lib.CachedTexturedBitmap_854();
 	this.instance.parent = this;
 	this.instance.setTransform(-26.65,-50.05,0.6971,0.6971);
 
@@ -622,7 +622,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_42();
+	this.instance = new lib.CachedTexturedBitmap_845();
 	this.instance.parent = this;
 	this.instance.setTransform(-14,-4.15,0.5,0.5);
 
@@ -635,7 +635,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_38();
+	this.instance = new lib.CachedTexturedBitmap_841();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.2,-16.3,0.5731,0.5731);
 
@@ -648,7 +648,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_46();
+	this.instance = new lib.CachedTexturedBitmap_849();
 	this.instance.parent = this;
 	this.instance.setTransform(-37.35,-117,1.399,1.399);
 
@@ -661,7 +661,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_27();
+	this.instance = new lib.CachedTexturedBitmap_830();
 	this.instance.parent = this;
 	this.instance.setTransform(-106.7,-100.6,2.5568,2.5568);
 
@@ -674,7 +674,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_26();
+	this.instance = new lib.CachedTexturedBitmap_829();
 	this.instance.parent = this;
 	this.instance.setTransform(-27.25,-6.15,0.5,0.5);
 
@@ -687,11 +687,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_25();
+	this.instance = new lib.CachedTexturedBitmap_828();
 	this.instance.parent = this;
 	this.instance.setTransform(-5.8,-7.4,1.1537,1.1537);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_24();
+	this.instance_1 = new lib.CachedTexturedBitmap_827();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-12.4,-12.15,1.1537,1.1537);
 
@@ -704,14 +704,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_22();
+	this.instance = new lib.CachedTexturedBitmap_825();
 	this.instance.parent = this;
 	this.instance.setTransform(-3.05,-4.65,0.7374,0.7374);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:true},1).wait(4).to({_off:false},0).wait(3).to({_off:true},1).wait(4));
 
 	// Calque_2
-	this.instance_1 = new lib.CachedTexturedBitmap_23();
+	this.instance_1 = new lib.CachedTexturedBitmap_826();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-7.85,-7.2,0.7374,0.7374);
 
@@ -725,14 +725,14 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.5,14.8);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_13();
+	this.instance = new lib.CachedTexturedBitmap_816();
 	this.instance.parent = this;
 	this.instance.setTransform(-3.05,-4.65,0.7449,0.7449);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:true},1).wait(4).to({_off:false},0).wait(3).to({_off:true},1).wait(4));
 
 	// Calque_2
-	this.instance_1 = new lib.CachedTexturedBitmap_14();
+	this.instance_1 = new lib.CachedTexturedBitmap_817();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-7.85,-7.25,0.7449,0.7449);
 
@@ -746,7 +746,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_1();
+	this.instance = new lib.CachedTexturedBitmap_804();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.55,-1.1,0.5998,0.5998);
 
@@ -778,7 +778,7 @@ p.nominalBounds = new cjs.Rectangle(-337.8,-339.6,676.4000000000001,676.40000000
 	this.instance.setTransform(15.1,1.85);
 	this.instance.alpha = 0.25;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_36();
+	this.instance_1 = new lib.CachedTexturedBitmap_839();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-128.05,-34.75,2.1742,2.1742);
 
@@ -807,7 +807,7 @@ p.nominalBounds = new cjs.Rectangle(-337.8,-339.6,676.4000000000001,676.40000000
 	this.aiguille.parent = this;
 	this.aiguille.setTransform(3.2,-0.8);
 
-	this.instance = new lib.CachedTexturedBitmap_28();
+	this.instance = new lib.CachedTexturedBitmap_831();
 	this.instance.parent = this;
 	this.instance.setTransform(2.6,-23,0.5998,0.5998);
 
@@ -1112,28 +1112,28 @@ p.nominalBounds = new cjs.Rectangle(-19,-10,54.5,17.6);
 	this.entonnoir.parent = this;
 	this.entonnoir.setTransform(-7.25,-30.3);
 
-	this.instance = new lib.CachedTexturedBitmap_2();
+	this.instance = new lib.CachedTexturedBitmap_805();
 	this.instance.parent = this;
 	this.instance.setTransform(-21.75,-34.95,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.entonnoir}]}).wait(1));
 
 	// Calque_2
-	this.instance_1 = new lib.CachedTexturedBitmap_3();
+	this.instance_1 = new lib.CachedTexturedBitmap_806();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-24.1,-8.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// Calque_3
-	this.instance_2 = new lib.CachedTexturedBitmap_4();
+	this.instance_2 = new lib.CachedTexturedBitmap_807();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(44.4,1.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
 
 	// Calque_1
-	this.instance_3 = new lib.CachedTexturedBitmap_5();
+	this.instance_3 = new lib.CachedTexturedBitmap_808();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(-45,4.35,0.5,0.5);
 
@@ -1349,11 +1349,11 @@ p.nominalBounds = new cjs.Rectangle(-19,-10,54.5,17.6);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Times New Roman'");
-	this.text.lineHeight = 8;
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
+	this.text.lineHeight = 11;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
-	this.text.setTransform(216.7,372.75);
+	this.text.setTransform(228.7,375.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
@@ -1402,7 +1402,7 @@ p.nominalBounds = new cjs.Rectangle(-19,-10,54.5,17.6);
 	this.timeline.addTween(cjs.Tween.get(this.seringue).wait(1));
 
 	// Souligné
-	this.instance = new lib.CachedTexturedBitmap_29();
+	this.instance = new lib.CachedTexturedBitmap_832();
 	this.instance.parent = this;
 	this.instance.setTransform(13.55,21.55,0.5,0.5);
 
@@ -1510,14 +1510,14 @@ p.nominalBounds = new cjs.Rectangle(-19,-10,54.5,17.6);
 	this.timeline.addTween(cjs.Tween.get(this.consigne1).wait(1));
 
 	// Cadre_expérience
-	this.instance_1 = new lib.CachedTexturedBitmap_30();
+	this.instance_1 = new lib.CachedTexturedBitmap_833();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(385.05,0.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// Cadre
-	this.instance_2 = new lib.CachedTexturedBitmap_31();
+	this.instance_2 = new lib.CachedTexturedBitmap_834();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(0.5,0.4,0.5,0.5);
 
@@ -1637,7 +1637,7 @@ p.nominalBounds = new cjs.Rectangle(-19,-10,54.5,17.6);
 	this.timeline.addTween(cjs.Tween.get(this.bol).wait(1));
 
 	// Cadre_organe
-	this.instance_4 = new lib.CachedTexturedBitmap_32();
+	this.instance_4 = new lib.CachedTexturedBitmap_835();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(125,183.6,0.5,0.5);
 
@@ -2038,7 +2038,7 @@ p.nominalBounds = new cjs.Rectangle(-19,-10,54.5,17.6);
 	this.timeline.addTween(cjs.Tween.get(this.texte0).wait(1));
 
 	// Tableau_resultat
-	this.instance_5 = new lib.CachedTexturedBitmap_33();
+	this.instance_5 = new lib.CachedTexturedBitmap_836();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(385.05,205.45,0.5,0.5);
 
@@ -2102,7 +2102,7 @@ p.nominalBounds = new cjs.Rectangle(-19,-10,54.5,17.6);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.legCoeur},{t:this.legFoie},{t:this.legRate},{t:this.legRein}]}).wait(1));
 
 	// Flèches
-	this.instance_6 = new lib.CachedTexturedBitmap_34();
+	this.instance_6 = new lib.CachedTexturedBitmap_837();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(422,11.7,0.5,0.5);
 
@@ -2205,13 +2205,13 @@ p.nominalBounds = new cjs.Rectangle(-19,-10,54.5,17.6);
 	this.timeline.addTween(cjs.Tween.get(this.pancreas).wait(1));
 
 	// Contour
-	this.instance_7 = new lib.CachedTexturedBitmap_35();
+	this.instance_7 = new lib.CachedTexturedBitmap_838();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(384.45,4.7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.clipGeneral, new cjs.Rectangle(-5,0.4,558,399.1), null);
+}).prototype = getMCSymbolPrototype(lib.clipGeneral, new cjs.Rectangle(-5,0.4,558,401.1), null);
 
 
 // stage content:
