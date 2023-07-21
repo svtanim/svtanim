@@ -725,14 +725,14 @@ p.nominalBounds = new cjs.Rectangle(-330,88,644.3,36.400000000000006);
 	// Calque_1
 	this.instance = new lib.Symbole62("synched",0);
 	this.instance.parent = this;
-	this.instance.setTransform(-307.8,112.3,1,1,0,0,0,-307.8,112.3);
+	this.instance.setTransform(-307.8,112.2,1,1,0,0,0,-307.8,112.2);
 
 	this.instance_1 = new lib.Symbole61("synched",0);
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(285.35,110.3,1,1,0,0,0,-307.8,112.3);
+	this.instance_1.setTransform(285.35,110.2,1,1,0,0,0,-307.8,112.2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},89).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,x:285.35,y:110.3},89).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,x:285.35,y:110.2},89).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
@@ -761,41 +761,32 @@ p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(553).call(this.frame_553).wait(1));
 
-	// Calque_3
-	this.text = new cjs.Text("(html5)", "10px 'Arial'", "#FF0000");
-	this.text.lineHeight = 13;
-	this.text.lineWidth = 45;
+	// Calque_2
+	this.text = new cjs.Text("LA REACTION INFLAMMATOIRE", "bold 14px 'Arial'", "#FF0000");
+	this.text.lineHeight = 18;
+	this.text.lineWidth = 376;
 	this.text.parent = this;
-	this.text.setTransform(266.5,4.1);
+	this.text.setTransform(46,1.4);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(554));
 
-	// Calque_2
-	this.text_1 = new cjs.Text("LA REACTION INFLAMMATOIRE", "bold 14px 'Arial'", "#FF0000");
-	this.text_1.lineHeight = 18;
-	this.text_1.lineWidth = 376;
+	// Copyright
+	this.text_1 = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
+	this.text_1.lineHeight = 11;
+	this.text_1.lineWidth = 104;
 	this.text_1.parent = this;
-	this.text_1.setTransform(46,1.4);
+	this.text_1.setTransform(230.5,375.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.text_1).wait(554));
 
-	// Copyright
-	this.text_2 = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Arial'");
-	this.text_2.lineHeight = 8;
-	this.text_2.lineWidth = 104;
+	// CC_BY_NC
+	this.text_2 = new cjs.Text("CC-BY-NC", "italic 10px 'Arial'");
+	this.text_2.lineHeight = 13;
+	this.text_2.lineWidth = 73;
 	this.text_2.parent = this;
-	this.text_2.setTransform(443.2,378.45);
+	this.text_2.setTransform(6.5,385.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.text_2).wait(554));
-
-	// CC_BY_NC
-	this.text_3 = new cjs.Text("CC-BY-NC", "italic 10px 'Arial'");
-	this.text_3.lineHeight = 13;
-	this.text_3.lineWidth = 73;
-	this.text_3.parent = this;
-	this.text_3.setTransform(6.5,385.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_3).wait(554));
 
 	// Cadre
 	this.shape = new cjs.Shape();
@@ -818,14 +809,14 @@ p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
 	// Cellule_peau_7
 	this.instance_1 = new lib.Cellulepeau7();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(90.55,83.7,0.5662,0.8333,0,0,0,0.1,-0.3);
+	this.instance_1.setTransform(90.55,83.8,0.5662,0.8333,0,0,0,0.1,-0.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(312).to({regY:0,scaleY:0.5996,rotation:-8.432,x:86.45,y:68.65},56).wait(186));
 
 	// Cellule_peau_4
 	this.instance_2 = new lib.Cellulepeau4();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(380.95,73.9,0.9949,0.367,180,0,0,-0.4,-0.3);
+	this.instance_2.setTransform(380.95,73.85,0.9949,0.367,180,0,0,-0.4,-0.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(312).to({regX:-0.3,regY:-0.1,rotation:187.5169,x:377.6,y:53.65},56).wait(186));
 
@@ -841,7 +832,7 @@ p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(41.85,83.75,0.9949,0.8333,180,0,0,0.2,-0.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(312).to({scaleY:0.9551,rotation:0,skewX:169.1215,skewY:176.2361,y:81.2},22).to({regX:0.4,regY:-0.3,scaleY:1.1435,skewX:152.3068,skewY:170.4153,x:41.8,y:77.2},34).wait(186));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(312).to({scaleY:0.9551,rotation:0,skewX:169.1215,skewY:176.2361,y:81.2},22).to({regX:0.4,regY:-0.2,scaleY:1.1435,skewX:152.3068,skewY:170.4153,x:41.75,y:77.1},34).wait(186));
 
 	// Cellule_peau_2
 	this.instance_5 = new lib.Cellulepeau2();
@@ -902,7 +893,7 @@ p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
 	// Cellule_peau_4
 	this.instance_13 = new lib.Cellulepeau4();
 	this.instance_13.parent = this;
-	this.instance_13.setTransform(292.55,94.15,0.9949,0.367,0,0,0,0.1,0.3);
+	this.instance_13.setTransform(292.55,94.1,0.9949,0.367,0,0,0,0.1,0.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(312).to({regY:1,rotation:4.9824,x:285.95,y:62.1},56).wait(186));
 
@@ -974,14 +965,14 @@ p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
 	this.instance_23.parent = this;
 	this.instance_23.setTransform(533.25,88.9,0.9949,0.8333);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_23).wait(312).to({regX:0.4,regY:0.3,scaleY:1.0023,rotation:8.2236,x:521.8,y:89.25},56).wait(186));
+	this.timeline.addTween(cjs.Tween.get(this.instance_23).wait(312).to({regX:0.4,regY:0.2,scaleY:1.0023,rotation:8.2236,x:521.8,y:89.15},56).wait(186));
 
 	// Cellule_peau_5
 	this.instance_24 = new lib.Cellulepeau5();
 	this.instance_24.parent = this;
 	this.instance_24.setTransform(13.15,77.45,0.9947,0.8335,0,177.6759,-1.6297,0.1,-0.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_24).wait(312).to({regY:-0.3,scaleY:1.1472,skewX:166.9556,skewY:-12.3499,x:12.7,y:76.35},56).wait(186));
+	this.timeline.addTween(cjs.Tween.get(this.instance_24).wait(312).to({regY:-0.2,scaleY:1.1472,skewX:166.9556,skewY:-12.3499,x:12.65,y:76.2},56).wait(186));
 
 	// Cellule_peau_3
 	this.instance_25 = new lib.Cellulepeau3();
@@ -1037,7 +1028,7 @@ p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
 	this.instance_32.parent = this;
 	this.instance_32.setTransform(230.15,90.05,0.9947,0.8335,0,-2.3241,178.3703,-0.4,0.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_32).wait(312).to({regX:-0.3,regY:0.4,skewX:-6.0552,skewY:174.635,x:225.75,y:59.65},56).wait(186));
+	this.timeline.addTween(cjs.Tween.get(this.instance_32).wait(312).to({regX:-0.2,regY:0.4,skewX:-6.0552,skewY:174.635,x:225.65,y:59.7},56).wait(186));
 
 	// Cellule_peau_3
 	this.instance_33 = new lib.Cellulepeau3();
@@ -5565,75 +5556,75 @@ p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
 	// Couche_sup_vaisseau
 	this.instance_54 = new lib.Celluleendothéliale("synched",0);
 	this.instance_54.parent = this;
-	this.instance_54.setTransform(-16.65,278.55,0.9948,0.9948,0,0,0,-0.6,0.6);
+	this.instance_54.setTransform(-16.7,278.6,0.9948,0.9948,0,0,0,-0.7,0.7);
 
 	this.instance_55 = new lib.Celluleendothéliale("synched",0);
 	this.instance_55.parent = this;
-	this.instance_55.setTransform(551.4,276.6,0.9948,0.9948,0,0,0,0.4,0.6);
+	this.instance_55.setTransform(551.4,276.65,0.9948,0.9948,0,0,0,0.5,0.7);
 
 	this.instance_56 = new lib.Celluleendothéliale("synched",0);
 	this.instance_56.parent = this;
-	this.instance_56.setTransform(517.95,277.7,0.9948,0.9948,0,0,0,0.3,0.3);
+	this.instance_56.setTransform(518,277.75,0.9948,0.9948,0,0,0,0.4,0.4);
 
 	this.instance_57 = new lib.Celluleendothéliale("synched",0);
 	this.instance_57.parent = this;
-	this.instance_57.setTransform(452.35,279.15,0.9948,0.9948,0,0,0,0.8,0.4);
+	this.instance_57.setTransform(452.3,279.1,0.9948,0.9948,0,0,0,0.8,0.4);
 
 	this.instance_58 = new lib.Celluleendothéliale("synched",0);
 	this.instance_58.parent = this;
-	this.instance_58.setTransform(485.1,277.7,0.9651,0.9948,180,0,0,-0.3,-0.3);
+	this.instance_58.setTransform(485.15,277.75,0.9651,0.9948,180,0,0,-0.4,-0.4);
 
 	this.instance_59 = new lib.Celluleendothéliale("synched",0);
 	this.instance_59.parent = this;
-	this.instance_59.setTransform(418.9,279.65,0.9948,0.9948,0,0,0,0.6,0.4);
+	this.instance_59.setTransform(418.95,279.7,0.9948,0.9948,0,0,0,0.7,0.5);
 
 	this.instance_60 = new lib.Celluleendothéliale("synched",0);
 	this.instance_60.parent = this;
-	this.instance_60.setTransform(385.5,279.35,0.9948,0.9948,0,0,0,0.6,0.6);
+	this.instance_60.setTransform(385.55,279.4,0.9948,0.9948,0,0,0,0.7,0.7);
 
 	this.instance_61 = new lib.Celluleendothéliale("synched",0);
 	this.instance_61.parent = this;
-	this.instance_61.setTransform(351.9,278.6,0.9948,0.9948,180,0,0,-0.4,-0.4);
+	this.instance_61.setTransform(351.95,278.55,0.9948,0.9948,180,0,0,-0.5,-0.4);
 
 	this.instance_62 = new lib.Celluleendothéliale("synched",0);
 	this.instance_62.parent = this;
-	this.instance_62.setTransform(318.55,278.8,0.9948,0.9948,0,0,0,0.4,0.6);
+	this.instance_62.setTransform(318.5,278.85,0.9948,0.9948,0,0,0,0.4,0.7);
 
 	this.instance_63 = new lib.Celluleendothéliale("synched",0);
 	this.instance_63.parent = this;
-	this.instance_63.setTransform(285.1,279.15,0.9948,0.9948,180,0,0,-0.5,-0.4);
+	this.instance_63.setTransform(285.15,279.1,0.9948,0.9948,180,0,0,-0.6,-0.4);
 
 	this.instance_64 = new lib.Celluleendothéliale("synched",0);
 	this.instance_64.parent = this;
-	this.instance_64.setTransform(251.5,278.8,0.9948,0.9948,180,0,0,-0.4,-0.3);
+	this.instance_64.setTransform(251.45,278.85,0.9948,0.9948,180,0,0,-0.4,-0.4);
 
 	this.instance_65 = new lib.Celluleendothéliale("synched",0);
 	this.instance_65.parent = this;
-	this.instance_65.setTransform(217.8,279.65,0.9948,0.9948,0,0,0,0.6,0.4);
+	this.instance_65.setTransform(217.85,279.7,0.9948,0.9948,0,0,0,0.7,0.5);
 
 	this.instance_66 = new lib.Celluleendothéliale("synched",0);
 	this.instance_66.parent = this;
-	this.instance_66.setTransform(184.2,279.15,0.9948,0.9948,180,0,0,-0.7,-0.4);
+	this.instance_66.setTransform(184.15,279.1,0.9948,0.9948,180,0,0,-0.7,-0.4);
 
 	this.instance_67 = new lib.Celluleendothéliale("synched",0);
 	this.instance_67.parent = this;
-	this.instance_67.setTransform(150.8,281.6,0.9948,0.9948,0,0,0,0.7,0.7);
+	this.instance_67.setTransform(150.75,281.55,0.9948,0.9948,0,0,0,0.7,0.7);
 
 	this.instance_68 = new lib.Celluleendothéliale("synched",0);
 	this.instance_68.parent = this;
-	this.instance_68.setTransform(117.35,279.15,0.9948,0.9948,0,0,0,0.6,0.4);
+	this.instance_68.setTransform(117.4,279.1,0.9948,0.9948,0,0,0,0.7,0.4);
 
 	this.instance_69 = new lib.Celluleendothéliale("synched",0);
 	this.instance_69.parent = this;
-	this.instance_69.setTransform(84.05,281.6,0.9948,0.9948,180,0,0,-0.7,-0.4);
+	this.instance_69.setTransform(84,281.55,0.9948,0.9948,180,0,0,-0.7,-0.4);
 
 	this.instance_70 = new lib.Celluleendothéliale("synched",0);
 	this.instance_70.parent = this;
-	this.instance_70.setTransform(50.1,279.15,0.9948,0.9948,0,0,0,0.4,0.4);
+	this.instance_70.setTransform(50.05,279.1,0.9948,0.9948,0,0,0,0.4,0.4);
 
 	this.instance_71 = new lib.Celluleendothéliale("synched",0);
 	this.instance_71.parent = this;
-	this.instance_71.setTransform(16.65,279.15,0.9948,0.9948,0,0,0,0.3,0.4);
+	this.instance_71.setTransform(16.7,279.1,0.9948,0.9948,0,0,0,0.4,0.4);
 
 	this.instance_72 = new lib.Interpoler3("synched",0);
 	this.instance_72.parent = this;
@@ -5720,80 +5711,80 @@ p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
 	this.instance_91.parent = this;
 	this.instance_91.setTransform(16.65,252.3,0.9949,0.9949,0,0,0,0,0.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_85,p:{y:252.85,rotation:0,x:217.8,regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:-0.4,y:250.15,rotation:180,x:251.5,regX:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:285.15}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949}}]},452).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_85,p:{y:251.75,rotation:0,x:217.8,regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:-0.4,y:250.15,rotation:180,x:251.5,regX:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:285.15}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949}}]},5).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_85,p:{y:249.85,rotation:0,x:217.8,regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:-0.3,y:249,rotation:180,x:251.5,regX:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:285.15}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949}}]},6).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_85,p:{y:249.75,rotation:-14.9958,x:217.85,regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:-0.3,y:249.05,rotation:-165.0042,x:251.4,regX:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:285.15}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949}}]},6).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_85,p:{y:248.75,rotation:-14.9958,x:216.95,regX:0.2,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:0.1,y:247.85,rotation:-165.0042,x:252.4,regX:-0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:285.15}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949}}]},6).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_85,p:{y:247.3,rotation:-29.9993,x:215.55,regX:0,regY:0,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_84,p:{regY:0.1,y:247.4,rotation:-150.0007,x:252.9,regX:-0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:285.15}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949}}]},6).to({state:[{t:this.instance_91,p:{regX:0.3,regY:0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_90,p:{regX:0.4,regY:0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_89,p:{regX:-0.7,regY:-0.6,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_88,p:{regX:0.6,regY:0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_87,p:{regX:0.7,regY:0.6,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_86,p:{regX:-0.7,regY:-0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_85,p:{y:252.85,rotation:0,x:217.8,regX:0.6,regY:0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_84,p:{regY:-0.7,y:252.05,rotation:180,x:251.5,regX:-0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_83,p:{regX:-0.5,regY:-0.4,scaleX:0.9948,scaleY:0.9948,x:285.1}},{t:this.instance_82,p:{regX:0.4,regY:0.7,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_81,p:{regX:-0.4,regY:-0.7,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_80,p:{regX:0.6,regY:0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_79,p:{regX:0.6,regY:0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_78,p:{regX:-0.3,regY:-0.1,scaleX:0.9651,scaleY:0.9948,y:250.65}},{t:this.instance_77,p:{regX:0.8,regY:0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_76,p:{regX:0.3,regY:0.1,scaleX:0.9948,scaleY:0.9948,y:250.65}},{t:this.instance_75,p:{regX:0.4,regY:0.7,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_74,p:{regX:-0.6,regY:0.7,scaleX:0.9948,scaleY:0.9948}}]},72).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:16.65,y:252.3}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:50.1,y:252.3}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949,x:84.05,y:254.7}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:117.35,y:252.3}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949,x:150.8,y:254.7}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:184.2,y:252.3}},{t:this.instance_85,p:{y:252.85,rotation:0,x:217.8,regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:-0.4,y:250.15,rotation:180,x:251.5,regX:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,y:252.3}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:318.55,y:252.05}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949,x:351.9,y:251.8}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:385.5,y:252.3}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:418.9,y:252.85}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,x:485.1,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:452.35,y:252.3}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,x:517.95,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,y:249.85}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:-16.65,y:251.8}}]},452).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:16.65,y:252.3}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:50.1,y:252.3}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949,x:84.05,y:254.7}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:117.35,y:252.3}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949,x:150.8,y:254.7}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:184.2,y:252.3}},{t:this.instance_85,p:{y:251.75,rotation:0,x:217.8,regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:-0.4,y:250.15,rotation:180,x:251.5,regX:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,y:252.3}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:318.55,y:252.05}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949,x:351.9,y:251.8}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:385.5,y:252.3}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:418.9,y:252.85}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,x:485.1,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:452.35,y:252.3}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,x:517.95,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,y:249.85}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:-16.65,y:251.8}}]},5).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:16.65,y:252.3}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:50.1,y:252.3}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949,x:84.05,y:254.7}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:117.35,y:252.3}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949,x:150.8,y:254.7}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:184.2,y:252.3}},{t:this.instance_85,p:{y:249.85,rotation:0,x:217.8,regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:-0.3,y:249,rotation:180,x:251.5,regX:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,y:252.3}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:318.55,y:252.05}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949,x:351.9,y:251.8}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:385.5,y:252.3}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:418.9,y:252.85}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,x:485.1,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:452.35,y:252.3}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,x:517.95,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,y:249.85}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:-16.65,y:251.8}}]},6).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:16.65,y:252.3}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:50.1,y:252.3}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949,x:84.05,y:254.7}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:117.35,y:252.3}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949,x:150.8,y:254.7}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:184.2,y:252.3}},{t:this.instance_85,p:{y:249.75,rotation:-14.9958,x:217.85,regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:-0.3,y:249.05,rotation:-165.0042,x:251.4,regX:-0.1,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,y:252.3}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:318.55,y:252.05}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949,x:351.9,y:251.8}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:385.5,y:252.3}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:418.9,y:252.85}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,x:485.1,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:452.35,y:252.3}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,x:517.95,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,y:249.85}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:-16.65,y:251.8}}]},6).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:16.65,y:252.3}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:50.1,y:252.3}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949,x:84.05,y:254.7}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:117.35,y:252.3}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949,x:150.8,y:254.7}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:184.2,y:252.3}},{t:this.instance_85,p:{y:248.75,rotation:-14.9958,x:216.95,regX:0.2,regY:0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_84,p:{regY:0.1,y:247.85,rotation:-165.0042,x:252.4,regX:-0.4,scaleX:0.9949,scaleY:0.9949}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,y:252.3}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:318.55,y:252.05}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949,x:351.9,y:251.8}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:385.5,y:252.3}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:418.9,y:252.85}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,x:485.1,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:452.35,y:252.3}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,x:517.95,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,y:249.85}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:-16.65,y:251.8}}]},6).to({state:[{t:this.instance_91,p:{regX:0,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:16.65,y:252.3}},{t:this.instance_90,p:{regX:0.1,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:50.1,y:252.3}},{t:this.instance_89,p:{regX:-0.4,regY:-0.3,scaleX:0.9949,scaleY:0.9949,x:84.05,y:254.7}},{t:this.instance_88,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:117.35,y:252.3}},{t:this.instance_87,p:{regX:0.4,regY:0.3,scaleX:0.9949,scaleY:0.9949,x:150.8,y:254.7}},{t:this.instance_86,p:{regX:-0.4,regY:-0.1,scaleX:0.9949,scaleY:0.9949,x:184.2,y:252.3}},{t:this.instance_85,p:{y:247.3,rotation:-29.9993,x:215.55,regX:0,regY:0,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_84,p:{regY:0.1,y:247.4,rotation:-150.0007,x:252.9,regX:-0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_83,p:{regX:-0.1,regY:-0.1,scaleX:0.9949,scaleY:0.9949,y:252.3}},{t:this.instance_82,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:318.55,y:252.05}},{t:this.instance_81,p:{regX:-0.1,regY:-0.4,scaleX:0.9949,scaleY:0.9949,x:351.9,y:251.8}},{t:this.instance_80,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:385.5,y:252.3}},{t:this.instance_79,p:{regX:0.3,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:418.9,y:252.85}},{t:this.instance_78,p:{regX:0,regY:0,scaleX:0.9653,scaleY:0.9949,x:485.1,y:250.85}},{t:this.instance_77,p:{regX:0.4,regY:0.1,scaleX:0.9949,scaleY:0.9949,x:452.35,y:252.3}},{t:this.instance_76,p:{regX:0,regY:0,scaleX:0.9949,scaleY:0.9949,x:517.95,y:250.85}},{t:this.instance_75,p:{regX:0.1,regY:0.4,scaleX:0.9949,scaleY:0.9949,y:249.85}},{t:this.instance_74,p:{regX:-0.3,regY:0.4,scaleX:0.9949,scaleY:0.9949,x:-16.65,y:251.8}}]},6).to({state:[{t:this.instance_91,p:{regX:0.4,regY:0.5,scaleX:0.9948,scaleY:0.9948,x:16.7,y:252.35}},{t:this.instance_90,p:{regX:0.4,regY:0.5,scaleX:0.9948,scaleY:0.9948,x:50.05,y:252.35}},{t:this.instance_89,p:{regX:-0.7,regY:-0.7,scaleX:0.9948,scaleY:0.9948,x:84,y:254.75}},{t:this.instance_88,p:{regX:0.7,regY:0.5,scaleX:0.9948,scaleY:0.9948,x:117.4,y:252.35}},{t:this.instance_87,p:{regX:0.7,regY:0.7,scaleX:0.9948,scaleY:0.9948,x:150.75,y:254.75}},{t:this.instance_86,p:{regX:-0.7,regY:-0.5,scaleX:0.9948,scaleY:0.9948,x:184.15,y:252.35}},{t:this.instance_85,p:{y:252.9,rotation:0,x:217.85,regX:0.7,regY:0.5,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_84,p:{regY:-0.7,y:252,rotation:180,x:251.45,regX:-0.4,scaleX:0.9948,scaleY:0.9948}},{t:this.instance_83,p:{regX:-0.6,regY:-0.5,scaleX:0.9948,scaleY:0.9948,y:252.35}},{t:this.instance_82,p:{regX:0.4,regY:0.7,scaleX:0.9948,scaleY:0.9948,x:318.5,y:252}},{t:this.instance_81,p:{regX:-0.5,regY:-0.7,scaleX:0.9948,scaleY:0.9948,x:351.95,y:251.75}},{t:this.instance_80,p:{regX:0.7,regY:0.5,scaleX:0.9948,scaleY:0.9948,x:385.55,y:252.35}},{t:this.instance_79,p:{regX:0.7,regY:0.5,scaleX:0.9948,scaleY:0.9948,x:418.95,y:252.9}},{t:this.instance_78,p:{regX:-0.4,regY:-0.1,scaleX:0.9651,scaleY:0.9948,x:485.15,y:250.6}},{t:this.instance_77,p:{regX:0.8,regY:0.5,scaleX:0.9948,scaleY:0.9948,x:452.3,y:252.35}},{t:this.instance_76,p:{regX:0.4,regY:0.1,scaleX:0.9948,scaleY:0.9948,x:518,y:250.6}},{t:this.instance_75,p:{regX:0.5,regY:0.7,scaleX:0.9948,scaleY:0.9948,y:249.8}},{t:this.instance_74,p:{regX:-0.7,regY:0.7,scaleX:0.9948,scaleY:0.9948,x:-16.7,y:251.75}}]},72).wait(1));
 
 	// Couche_inf_vaisseau
 	this.instance_92 = new lib.Celluleendothéliale("synched",0);
 	this.instance_92.parent = this;
-	this.instance_92.setTransform(553.85,326.95,0.9948,0.9948,180,0,0,-0.4,-0.6);
+	this.instance_92.setTransform(553.8,327,0.9948,0.9948,180,0,0,-0.4,-0.7);
 
 	this.instance_93 = new lib.Celluleendothéliale("synched",0);
 	this.instance_93.parent = this;
-	this.instance_93.setTransform(-14,328.9,0.9948,0.9948,180,0,0,0.4,-0.6);
+	this.instance_93.setTransform(-13.95,328.95,0.9948,0.9948,180,0,0,0.4,-0.7);
 
 	this.instance_94 = new lib.Celluleendothéliale("synched",0);
 	this.instance_94.parent = this;
-	this.instance_94.setTransform(19.4,327.5,0.9948,0.9948,180,0,0,-0.6,-0.3);
+	this.instance_94.setTransform(19.45,327.55,0.9948,0.9948,180,0,0,-0.7,-0.4);
 
 	this.instance_95 = new lib.Celluleendothéliale("synched",0);
 	this.instance_95.parent = this;
-	this.instance_95.setTransform(85.05,326.2,0.9948,0.9948,180,0,0,-0.6,-0.4);
+	this.instance_95.setTransform(85.1,326.15,0.9948,0.9948,180,0,0,-0.7,-0.4);
 
 	this.instance_96 = new lib.Celluleendothéliale("synched",0);
 	this.instance_96.parent = this;
-	this.instance_96.setTransform(52.3,327.5,0.9651,0.9948,0,0,0,0.7,0.3);
+	this.instance_96.setTransform(52.3,327.55,0.9651,0.9948,0,0,0,0.8,0.4);
 
 	this.instance_97 = new lib.Celluleendothéliale("synched",0);
 	this.instance_97.parent = this;
-	this.instance_97.setTransform(118.45,325.65,0.9948,0.9948,180,0,0,-0.7,-0.4);
+	this.instance_97.setTransform(118.5,325.6,0.9948,0.9948,180,0,0,-0.8,-0.4);
 
 	this.instance_98 = new lib.Celluleendothéliale("synched",0);
 	this.instance_98.parent = this;
-	this.instance_98.setTransform(151.9,326.15,0.9948,0.9948,180,0,0,-0.7,-0.6);
+	this.instance_98.setTransform(151.85,326.2,0.9948,0.9948,180,0,0,-0.7,-0.7);
 
 	this.instance_99 = new lib.Celluleendothéliale("synched",0);
 	this.instance_99.parent = this;
-	this.instance_99.setTransform(185.2,326.75,0.9948,0.9948,0,0,0,0.3,0.4);
+	this.instance_99.setTransform(185.25,326.7,0.9948,0.9948,0,0,0,0.4,0.4);
 
 	this.instance_100 = new lib.Celluleendothéliale("synched",0);
 	this.instance_100.parent = this;
-	this.instance_100.setTransform(218.9,326.7,0.9948,0.9948,180,0,0,-0.6,-0.6);
+	this.instance_100.setTransform(218.95,326.75,0.9948,0.9948,180,0,0,-0.7,-0.7);
 
 	this.instance_101 = new lib.Celluleendothéliale("synched",0);
 	this.instance_101.parent = this;
-	this.instance_101.setTransform(252.05,326.2,0.9948,0.9948,0,0,0,0.4,0.4);
+	this.instance_101.setTransform(252,326.15,0.9948,0.9948,0,0,0,0.4,0.4);
 
 	this.instance_102 = new lib.Celluleendothéliale("synched",0);
 	this.instance_102.parent = this;
-	this.instance_102.setTransform(285.65,326.7,0.9948,0.9948,0,0,0,0.4,0.6);
+	this.instance_102.setTransform(285.65,326.75,0.9948,0.9948,0,0,0,0.5,0.7);
 
 	this.instance_103 = new lib.Celluleendothéliale("synched",0);
 	this.instance_103.parent = this;
-	this.instance_103.setTransform(319.3,325.65,0.9948,0.9948,180,0,0,-0.1,-0.4);
+	this.instance_103.setTransform(319.25,325.6,0.9948,0.9948,180,0,0,-0.1,-0.4);
 
 	this.instance_104 = new lib.Celluleendothéliale("synched",0);
 	this.instance_104.parent = this;
-	this.instance_104.setTransform(353.3,326.2,0.9948,0.9948,0,0,0,0.4,0.4);
+	this.instance_104.setTransform(353.25,326.15,0.9948,0.9948,0,0,0,0.4,0.4);
 
 	this.instance_105 = new lib.Celluleendothéliale("synched",0);
 	this.instance_105.parent = this;
-	this.instance_105.setTransform(386.6,324.05,0.9948,0.9948,180,0,0,-0.3,-0.7);
+	this.instance_105.setTransform(386.65,324,0.9948,0.9948,180,0,0,-0.4,-0.7);
 
 	this.instance_106 = new lib.Celluleendothéliale("synched",0);
 	this.instance_106.parent = this;
-	this.instance_106.setTransform(420.05,326.2,0.9948,0.9948,180,0,0,-0.4,-0.4);
+	this.instance_106.setTransform(420,326.15,0.9948,0.9948,180,0,0,-0.4,-0.4);
 
 	this.instance_107 = new lib.Celluleendothéliale("synched",0);
 	this.instance_107.parent = this;
-	this.instance_107.setTransform(453.45,324.05,0.9948,0.9948,0,0,0,0.4,0.7);
+	this.instance_107.setTransform(453.4,324,0.9948,0.9948,0,0,0,0.4,0.7);
 
 	this.instance_108 = new lib.Celluleendothéliale("synched",0);
 	this.instance_108.parent = this;
-	this.instance_108.setTransform(486.8,326.2,0.9948,0.9948,180,0,0,-0.1,-0.4);
+	this.instance_108.setTransform(486.75,326.15,0.9948,0.9948,180,0,0,-0.1,-0.4);
 
 	this.instance_109 = new lib.Celluleendothéliale("synched",0);
 	this.instance_109.parent = this;
-	this.instance_109.setTransform(520.45,326.2,0.9948,0.9948,180,0,0,-0.4,-0.4);
+	this.instance_109.setTransform(520.5,326.15,0.9948,0.9948,180,0,0,-0.5,-0.4);
 
 	this.instance_110 = new lib.Interpoler5("synched",0);
 	this.instance_110.parent = this;
@@ -5804,7 +5795,7 @@ p.nominalBounds = new cjs.Rectangle(-318,100,613.7,22.5);
 	this.instance_111.parent = this;
 	this.instance_111.setTransform(268.95,354.1,0.9949,0.9949,0,0,0,0.3,0.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_109,p:{regX:-0.4,regY:-0.4,x:520.45,y:326.2}},{t:this.instance_108,p:{regX:-0.1,regY:-0.4,x:486.8,y:326.2}},{t:this.instance_107,p:{regX:0.4,regY:0.7,x:453.45,y:324.05}},{t:this.instance_106,p:{regX:-0.4,regY:-0.4,x:420.05,y:326.2}},{t:this.instance_105,p:{regX:-0.3,x:386.6,y:324.05}},{t:this.instance_104,p:{regY:0.4,x:353.3,y:326.2}},{t:this.instance_103,p:{regX:-0.1,x:319.3,y:325.65}},{t:this.instance_102,p:{regX:0.4,regY:0.6,x:285.65,y:326.7}},{t:this.instance_101,p:{regX:0.4,regY:0.4,x:252.05,y:326.2}},{t:this.instance_100,p:{regY:-0.6,x:218.9,y:326.7}},{t:this.instance_99,p:{regX:0.3,x:185.2,y:326.75}},{t:this.instance_98,p:{regX:-0.7,regY:-0.6,x:151.9,y:326.15}},{t:this.instance_97,p:{regX:-0.7,x:118.45,y:325.65}},{t:this.instance_96,p:{x:52.3,y:327.5}},{t:this.instance_95,p:{regX:-0.6,regY:-0.4,x:85.05,y:326.2}},{t:this.instance_94,p:{x:19.4,y:327.5}},{t:this.instance_93,p:{regX:0.4,x:-14,y:328.9}},{t:this.instance_92,p:{regX:-0.4,regY:-0.6,x:553.85,y:326.95}}]}).to({state:[{t:this.instance_110}]},215).to({state:[{t:this.instance_111}]},36).to({state:[{t:this.instance_109,p:{regX:-0.7,regY:-0.6,x:519.65,y:354.05}},{t:this.instance_108,p:{regX:-0.5,regY:-0.6,x:486.1,y:354.05}},{t:this.instance_107,p:{regX:0.6,regY:0.4,x:452.3,y:351.65}},{t:this.instance_106,p:{regX:-0.7,regY:-0.6,x:419.25,y:354.05}},{t:this.instance_105,p:{regX:-0.6,x:385.8,y:351.95}},{t:this.instance_104,p:{regY:0.7,x:352.2,y:354.05}},{t:this.instance_103,p:{regX:-0.4,x:318.55,y:353.55}},{t:this.instance_102,p:{regX:0.6,regY:0.5,x:284.8,y:354.3}},{t:this.instance_101,p:{regX:0.7,regY:0.7,x:251.25,y:354.05}},{t:this.instance_100,p:{regY:-0.8,x:217.8,y:354.6}},{t:this.instance_99,p:{regX:0.7,x:184.5,y:354.65}},{t:this.instance_98,p:{regX:-0.4,regY:-0.7,x:150.8,y:354.05}},{t:this.instance_97,p:{regX:-0.3,x:117.35,y:353.55}},{t:this.instance_96,p:{x:51.2,y:355.4}},{t:this.instance_95,p:{regX:-0.4,regY:-0.6,x:84.05,y:354.05}},{t:this.instance_94,p:{x:18.3,y:355.4}},{t:this.instance_93,p:{regX:0.3,x:-15,y:356.8}},{t:this.instance_92,p:{regX:-0.7,regY:-0.4,x:553.05,y:354.65}}]},302).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_109,p:{regX:-0.5,regY:-0.4,x:520.5,y:326.15}},{t:this.instance_108,p:{regX:-0.1,regY:-0.4,x:486.75,y:326.15}},{t:this.instance_107,p:{regX:0.4,regY:0.7,x:453.4,y:324}},{t:this.instance_106,p:{regX:-0.4,regY:-0.4,x:420,y:326.15}},{t:this.instance_105,p:{regX:-0.4,x:386.65,y:324}},{t:this.instance_104,p:{regY:0.4,x:353.25,y:326.15}},{t:this.instance_103,p:{regX:-0.1,regY:-0.4,x:319.25,y:325.6}},{t:this.instance_102,p:{regX:0.5,regY:0.7,x:285.65,y:326.75}},{t:this.instance_101,p:{regX:0.4,regY:0.4,x:252,y:326.15}},{t:this.instance_100,p:{regY:-0.7,x:218.95,y:326.75}},{t:this.instance_99,p:{regX:0.4,x:185.25,y:326.7}},{t:this.instance_98,p:{regX:-0.7,regY:-0.7,x:151.85,y:326.2}},{t:this.instance_97,p:{regX:-0.8,regY:-0.4,x:118.5,y:325.6}},{t:this.instance_96,p:{x:52.3,y:327.55}},{t:this.instance_95,p:{regX:-0.7,regY:-0.4,x:85.1,y:326.15}},{t:this.instance_94,p:{x:19.45,y:327.55}},{t:this.instance_93,p:{x:-13.95,y:328.95}},{t:this.instance_92,p:{regX:-0.4,regY:-0.7,x:553.8,y:327}}]}).to({state:[{t:this.instance_110}]},215).to({state:[{t:this.instance_111}]},36).to({state:[{t:this.instance_109,p:{regX:-0.7,regY:-0.7,x:519.6,y:354.1}},{t:this.instance_108,p:{regX:-0.6,regY:-0.7,x:486.15,y:354.1}},{t:this.instance_107,p:{regX:0.7,regY:0.4,x:452.35,y:351.6}},{t:this.instance_106,p:{regX:-0.7,regY:-0.7,x:419.2,y:354.1}},{t:this.instance_105,p:{regX:-0.7,x:385.85,y:351.9}},{t:this.instance_104,p:{regY:0.8,x:352.15,y:354.1}},{t:this.instance_103,p:{regX:-0.4,regY:-0.5,x:318.5,y:353.6}},{t:this.instance_102,p:{regX:0.7,regY:0.6,x:284.85,y:354.3}},{t:this.instance_101,p:{regX:0.7,regY:0.8,x:251.2,y:354.1}},{t:this.instance_100,p:{regY:-0.9,x:217.85,y:354.6}},{t:this.instance_99,p:{regX:0.7,x:184.45,y:354.6}},{t:this.instance_98,p:{regX:-0.4,regY:-0.8,x:150.75,y:354.1}},{t:this.instance_97,p:{regX:-0.4,regY:-0.5,x:117.4,y:353.6}},{t:this.instance_96,p:{x:51.2,y:355.45}},{t:this.instance_95,p:{regX:-0.4,regY:-0.7,x:84,y:354.1}},{t:this.instance_94,p:{x:18.35,y:355.45}},{t:this.instance_93,p:{x:-15.05,y:356.85}},{t:this.instance_92,p:{regX:-0.7,regY:-0.4,x:553,y:354.6}}]},302).wait(1));
 	this.timeline.addTween(cjs.Tween.get(this.instance_110).wait(215).to({_off:false},0).to({_off:true,regX:0.3,regY:0.1,x:268.95,y:354.1},36).wait(303));
 
 	// Déplac_Macrophage

@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Regulation_testiculaire_atlas_", frames: [[586,1775,257,196],[764,1554,155,167],[0,2044,681,2],[699,1995,27,9],[150,1946,2,27],[618,2010,83,22],[0,1554,317,390],[0,0,1100,800],[186,1990,15,47],[827,1723,15,47],[154,1946,17,60],[921,1684,2,24],[764,1723,61,50],[722,1973,19,19],[173,1946,11,12],[618,2034,207,8],[738,1994,8,14],[125,1968,21,20],[728,1994,8,14],[940,1835,6,177],[699,1973,21,20],[667,1755,52,18],[586,1973,30,68],[845,1723,185,110],[827,2014,39,25],[618,1973,52,34],[125,1946,23,20],[672,1973,25,32],[319,1775,265,213],[54,1946,16,41],[319,1554,283,219],[90,1946,16,40],[36,1946,16,42],[108,1946,15,40],[72,1946,16,41],[154,2008,30,28],[901,2014,30,28],[0,1946,34,39],[868,2014,31,28],[933,2014,30,28],[0,1990,53,52],[929,1554,2,152],[604,1554,158,199],[148,1975,4,4],[721,1755,23,16],[703,2010,61,19],[845,1835,93,173],[827,2041,6,7],[1102,0,248,726],[604,1755,61,16],[88,1990,31,46],[121,1990,31,46],[921,1554,6,128],[55,1990,31,46],[0,802,1100,750]]}
+		{name:"Regulation_testiculaire_atlas_", frames: [[586,1775,257,196],[764,1554,155,167],[0,2044,681,2],[0,1554,317,390],[0,0,1100,800],[921,1684,2,24],[618,2034,207,8],[940,1835,6,177],[319,1554,283,219],[929,1554,2,152],[921,1554,6,128],[699,1995,27,9],[150,1946,2,27],[618,2010,83,22],[827,1723,15,47],[186,1990,15,47],[154,1946,17,60],[764,1723,61,50],[722,1973,19,19],[173,1946,11,12],[738,1994,8,14],[699,1973,21,20],[728,1994,8,14],[125,1968,21,20],[667,1755,52,18],[586,1973,30,68],[845,1723,185,110],[827,2014,39,25],[618,1973,52,34],[125,1946,23,20],[672,1973,25,32],[319,1775,265,213],[54,1946,16,41],[90,1946,16,40],[36,1946,16,42],[108,1946,15,40],[72,1946,16,41],[901,2014,30,28],[933,2014,30,28],[0,1946,34,39],[868,2014,31,28],[154,2008,30,28],[0,1990,53,52],[604,1554,158,199],[148,1975,4,4],[721,1755,23,16],[703,2010,61,19],[845,1835,93,173],[827,2041,6,7],[1102,0,248,726],[604,1755,61,16],[88,1990,31,46],[55,1990,31,46],[121,1990,31,46],[0,802,1100,750]]}
 ];
 
 
@@ -25,364 +25,364 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_1 = function() {
+(lib.CachedTexturedBitmap_143 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_10 = function() {
+(lib.CachedTexturedBitmap_144 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_11 = function() {
+(lib.CachedTexturedBitmap_145 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_12 = function() {
+(lib.CachedTexturedBitmap_146 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_2 = function() {
+(lib.CachedTexturedBitmap_147 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_3 = function() {
+(lib.CachedTexturedBitmap_148 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_37 = function() {
+(lib.CachedTexturedBitmap_149 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_38 = function() {
+(lib.CachedTexturedBitmap_150 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_39 = function() {
+(lib.CachedTexturedBitmap_151 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_4 = function() {
+(lib.CachedTexturedBitmap_152 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_40 = function() {
+(lib.CachedTexturedBitmap_153 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_41 = function() {
+(lib.CachedTexturedBitmap_154 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_42 = function() {
+(lib.CachedTexturedBitmap_179 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_5 = function() {
+(lib.CachedTexturedBitmap_180 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_50 = function() {
+(lib.CachedTexturedBitmap_181 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_51 = function() {
+(lib.CachedTexturedBitmap_182 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_59 = function() {
+(lib.CachedTexturedBitmap_183 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_6 = function() {
+(lib.CachedTexturedBitmap_184 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_60 = function() {
+(lib.CachedTexturedBitmap_192 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_61 = function() {
+(lib.CachedTexturedBitmap_193 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_62 = function() {
+(lib.CachedTexturedBitmap_201 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_63 = function() {
+(lib.CachedTexturedBitmap_202 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_64 = function() {
+(lib.CachedTexturedBitmap_203 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_65 = function() {
+(lib.CachedTexturedBitmap_204 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_66 = function() {
+(lib.CachedTexturedBitmap_205 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_67 = function() {
+(lib.CachedTexturedBitmap_206 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_68 = function() {
+(lib.CachedTexturedBitmap_207 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_69 = function() {
+(lib.CachedTexturedBitmap_208 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_7 = function() {
+(lib.CachedTexturedBitmap_209 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_70 = function() {
+(lib.CachedTexturedBitmap_210 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_71 = function() {
+(lib.CachedTexturedBitmap_211 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_72 = function() {
+(lib.CachedTexturedBitmap_212 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_73 = function() {
+(lib.CachedTexturedBitmap_213 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_74 = function() {
+(lib.CachedTexturedBitmap_214 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_75 = function() {
+(lib.CachedTexturedBitmap_215 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_76 = function() {
+(lib.CachedTexturedBitmap_216 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_77 = function() {
+(lib.CachedTexturedBitmap_217 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_78 = function() {
+(lib.CachedTexturedBitmap_218 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_79 = function() {
+(lib.CachedTexturedBitmap_219 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_8 = function() {
+(lib.CachedTexturedBitmap_220 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_80 = function() {
+(lib.CachedTexturedBitmap_221 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_81 = function() {
+(lib.CachedTexturedBitmap_222 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_82 = function() {
+(lib.CachedTexturedBitmap_223 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_83 = function() {
+(lib.CachedTexturedBitmap_224 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_84 = function() {
+(lib.CachedTexturedBitmap_225 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_85 = function() {
+(lib.CachedTexturedBitmap_226 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_86 = function() {
+(lib.CachedTexturedBitmap_227 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_87 = function() {
+(lib.CachedTexturedBitmap_228 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_88 = function() {
+(lib.CachedTexturedBitmap_229 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_89 = function() {
+(lib.CachedTexturedBitmap_230 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_9 = function() {
+(lib.CachedTexturedBitmap_231 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_90 = function() {
+(lib.CachedTexturedBitmap_232 = function() {
 	this.initialize(ss["Regulation_testiculaire_atlas_"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
@@ -416,7 +416,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_90();
+	this.instance = new lib.CachedTexturedBitmap_232();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-5.15,0.5,0.5);
 
@@ -429,7 +429,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_89();
+	this.instance = new lib.CachedTexturedBitmap_231();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-5.15,0.5,0.5);
 
@@ -442,7 +442,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_88();
+	this.instance = new lib.CachedTexturedBitmap_230();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -455,7 +455,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_87();
+	this.instance = new lib.CachedTexturedBitmap_229();
 	this.instance.parent = this;
 	this.instance.setTransform(-95.95,-24.6,3.0958,3.0958);
 
@@ -468,7 +468,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_86();
+	this.instance = new lib.CachedTexturedBitmap_228();
 	this.instance.parent = this;
 	this.instance.setTransform(19.7,-0.5,0.5,0.5);
 
@@ -481,7 +481,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_85();
+	this.instance = new lib.CachedTexturedBitmap_227();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -494,7 +494,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_84();
+	this.instance = new lib.CachedTexturedBitmap_226();
 	this.instance.parent = this;
 	this.instance.setTransform(16.45,-38.8,0.6462,0.6462);
 
@@ -507,7 +507,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_83();
+	this.instance = new lib.CachedTexturedBitmap_225();
 	this.instance.parent = this;
 	this.instance.setTransform(-91.65,-29,3.0258,3.0258);
 
@@ -520,14 +520,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_2
-	this.instance = new lib.CachedTexturedBitmap_81();
+	this.instance = new lib.CachedTexturedBitmap_223();
 	this.instance.parent = this;
 	this.instance.setTransform(4.8,2.7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Calque_1
-	this.instance_1 = new lib.CachedTexturedBitmap_82();
+	this.instance_1 = new lib.CachedTexturedBitmap_224();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -619,14 +619,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_2
-	this.instance = new lib.CachedTexturedBitmap_79();
+	this.instance = new lib.CachedTexturedBitmap_221();
 	this.instance.parent = this;
 	this.instance.setTransform(-12,-119.15,0.7013,0.7013);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Calque_1
-	this.instance_1 = new lib.CachedTexturedBitmap_80();
+	this.instance_1 = new lib.CachedTexturedBitmap_222();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-34.25,-98.25,0.7013,0.7013);
 
@@ -639,7 +639,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_78();
+	this.instance = new lib.CachedTexturedBitmap_220();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -652,7 +652,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_77();
+	this.instance = new lib.CachedTexturedBitmap_219();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -665,7 +665,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_76();
+	this.instance = new lib.CachedTexturedBitmap_218();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
 
@@ -678,7 +678,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_75();
+	this.instance = new lib.CachedTexturedBitmap_217();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -691,7 +691,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_74();
+	this.instance = new lib.CachedTexturedBitmap_216();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
 
@@ -704,7 +704,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_73();
+	this.instance = new lib.CachedTexturedBitmap_215();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.2,-16.25,0.8002,0.8002);
 
@@ -717,7 +717,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_72();
+	this.instance = new lib.CachedTexturedBitmap_214();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.2,-16.3,0.8159,0.8159);
 
@@ -730,7 +730,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_71();
+	this.instance = new lib.CachedTexturedBitmap_213();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.25,-16.25,0.7772,0.7772);
 
@@ -743,7 +743,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_70();
+	this.instance = new lib.CachedTexturedBitmap_212();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.25,-16.3,0.8073,0.8073);
 
@@ -756,7 +756,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_69();
+	this.instance = new lib.CachedTexturedBitmap_211();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.25,-16.3,0.7973,0.7973);
 
@@ -775,7 +775,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.text.parent = this;
 	this.text.setTransform(230.7,150.65);
 
-	this.instance = new lib.CachedTexturedBitmap_61();
+	this.instance = new lib.CachedTexturedBitmap_203();
 	this.instance.parent = this;
 	this.instance.setTransform(202.15,156.5,0.5214,0.5214);
 
@@ -788,49 +788,49 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.text_1.parent = this;
 	this.text_1.setTransform(202.4,105.9);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_62();
+	this.instance_1 = new lib.CachedTexturedBitmap_204();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(205.25,115.4,0.5214,0.5214);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.text_1}]}).wait(1));
 
 	// Autres_structures
-	this.instance_2 = new lib.CachedTexturedBitmap_63();
+	this.instance_2 = new lib.CachedTexturedBitmap_205();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(182.1,106.45,0.5214,0.5214);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
 
 	// Thalamus
-	this.instance_3 = new lib.CachedTexturedBitmap_64();
+	this.instance_3 = new lib.CachedTexturedBitmap_206();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(202.9,134.85,0.5214,0.5214);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
 	// Hyppocampe
-	this.instance_4 = new lib.CachedTexturedBitmap_65();
+	this.instance_4 = new lib.CachedTexturedBitmap_207();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(199.85,132.25,0.5214,0.5214);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
 	// Hypothalamus
-	this.instance_5 = new lib.CachedTexturedBitmap_66();
+	this.instance_5 = new lib.CachedTexturedBitmap_208();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(198.6,145.25,0.5214,0.5214);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
 
 	// Hypophyse
-	this.instance_6 = new lib.CachedTexturedBitmap_67();
+	this.instance_6 = new lib.CachedTexturedBitmap_209();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(195.95,151.05,0.5214,0.5214);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
 
 	// Cerveau
-	this.instance_7 = new lib.CachedTexturedBitmap_68();
+	this.instance_7 = new lib.CachedTexturedBitmap_210();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(151.35,90.6,0.5214,0.5214);
 
@@ -843,14 +843,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,142.3,18.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_59();
+	this.instance = new lib.CachedTexturedBitmap_201();
 	this.instance.parent = this;
 	this.instance.setTransform(-3.05,-4.65,0.7374,0.7374);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:true},1).wait(4).to({_off:false},0).wait(3).to({_off:true},1).wait(4));
 
 	// Calque_2
-	this.instance_1 = new lib.CachedTexturedBitmap_60();
+	this.instance_1 = new lib.CachedTexturedBitmap_202();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-7.85,-7.2,0.7374,0.7374);
 
@@ -864,14 +864,14 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.5,14.8);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_50();
+	this.instance = new lib.CachedTexturedBitmap_192();
 	this.instance.parent = this;
 	this.instance.setTransform(-3.05,-4.65,0.7449,0.7449);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:true},1).wait(4).to({_off:false},0).wait(3).to({_off:true},1).wait(4));
 
 	// Calque_2
-	this.instance_1 = new lib.CachedTexturedBitmap_51();
+	this.instance_1 = new lib.CachedTexturedBitmap_193();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-7.85,-7.25,0.7449,0.7449);
 
@@ -885,11 +885,11 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_42();
+	this.instance = new lib.CachedTexturedBitmap_184();
 	this.instance.parent = this;
 	this.instance.setTransform(-5.95,-7.6,1.3291,1.3291);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_41();
+	this.instance_1 = new lib.CachedTexturedBitmap_183();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-12.55,-12.35,1.3291,1.3291);
 
@@ -902,7 +902,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_10();
+	this.instance = new lib.CachedTexturedBitmap_152();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,-0.05,0.5,0.5);
 
@@ -915,7 +915,7 @@ p.nominalBounds = new cjs.Rectangle(-7.8,-7.2,15.6,14.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_4();
+	this.instance = new lib.CachedTexturedBitmap_146();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.85,-1.45,0.854,0.854);
 
@@ -1006,18 +1006,18 @@ p.nominalBounds = new cjs.Rectangle(0,1.5,149.6,20.9);
 	this.timeline.addTween(cjs.Tween.get(this.oblong).wait(57).to({_off:false},0).to({rotation:-90,x:-0.5,y:0.35},4).to({rotation:-180,x:-0.55,y:0.4},5).to({rotation:-270,x:-0.5,y:0.45},5).to({rotation:-353.5492,y:0.4},5).wait(1));
 
 	// Calque_18
-	this.instance = new lib.CachedTexturedBitmap_38();
+	this.instance = new lib.CachedTexturedBitmap_180();
 	this.instance.parent = this;
 	this.instance.setTransform(-8.3,-11.25,0.5,0.5);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_37();
+	this.instance_1 = new lib.CachedTexturedBitmap_179();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-8.3,-11.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},57).to({state:[{t:this.instance_1}]},4).to({state:[{t:this.instance}]},5).to({state:[{t:this.instance_1}]},5).to({state:[{t:this.instance}]},5).wait(1));
 
 	// Calque_19
-	this.instance_2 = new lib.CachedTexturedBitmap_39();
+	this.instance_2 = new lib.CachedTexturedBitmap_181();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(-8.3,-18.1,0.5,0.5);
 	this.instance_2._off = true;
@@ -1025,7 +1025,7 @@ p.nominalBounds = new cjs.Rectangle(0,1.5,149.6,20.9);
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(57).to({_off:false},0).wait(20));
 
 	// Calque_20
-	this.instance_3 = new lib.CachedTexturedBitmap_40();
+	this.instance_3 = new lib.CachedTexturedBitmap_182();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(-16.6,-13.05,0.5,0.5);
 	this.instance_3._off = true;
@@ -1042,18 +1042,18 @@ p.nominalBounds = new cjs.Rectangle(0,1.5,149.6,20.9);
 	this.timeline.addTween(cjs.Tween.get(this.oblong_1).wait(38).to({_off:false},0).to({rotation:-90,x:-0.5,y:0.35},4).to({rotation:-180,x:-0.55,y:0.4},5).to({rotation:-270,x:-0.5,y:0.45},5).to({rotation:-353.5492,y:0.4},5).to({_off:true},1).wait(19));
 
 	// Calque_14
-	this.instance_4 = new lib.CachedTexturedBitmap_38();
+	this.instance_4 = new lib.CachedTexturedBitmap_180();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(-8.3,-11.25,0.5,0.5);
 
-	this.instance_5 = new lib.CachedTexturedBitmap_37();
+	this.instance_5 = new lib.CachedTexturedBitmap_179();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(-8.3,-11.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},38).to({state:[{t:this.instance_5}]},4).to({state:[{t:this.instance_4}]},5).to({state:[{t:this.instance_5}]},5).to({state:[{t:this.instance_4}]},5).to({state:[]},1).wait(19));
 
 	// Calque_15
-	this.instance_6 = new lib.CachedTexturedBitmap_39();
+	this.instance_6 = new lib.CachedTexturedBitmap_181();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(-8.3,-18.1,0.5,0.5);
 	this.instance_6._off = true;
@@ -1061,7 +1061,7 @@ p.nominalBounds = new cjs.Rectangle(0,1.5,149.6,20.9);
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(38).to({_off:false},0).to({_off:true},20).wait(19));
 
 	// Calque_16
-	this.instance_7 = new lib.CachedTexturedBitmap_40();
+	this.instance_7 = new lib.CachedTexturedBitmap_182();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(-16.6,-13.05,0.5,0.5);
 	this.instance_7._off = true;
@@ -1078,18 +1078,18 @@ p.nominalBounds = new cjs.Rectangle(0,1.5,149.6,20.9);
 	this.timeline.addTween(cjs.Tween.get(this.oblong_2).wait(19).to({_off:false},0).to({rotation:-90,x:-0.5,y:0.35},4).to({rotation:-180,x:-0.55,y:0.4},5).to({rotation:-270,x:-0.5,y:0.45},5).to({rotation:-353.5492,y:0.4},5).to({_off:true},1).wait(38));
 
 	// Calque_9
-	this.instance_8 = new lib.CachedTexturedBitmap_38();
+	this.instance_8 = new lib.CachedTexturedBitmap_180();
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(-8.3,-11.25,0.5,0.5);
 
-	this.instance_9 = new lib.CachedTexturedBitmap_37();
+	this.instance_9 = new lib.CachedTexturedBitmap_179();
 	this.instance_9.parent = this;
 	this.instance_9.setTransform(-8.3,-11.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_8}]},19).to({state:[{t:this.instance_9}]},4).to({state:[{t:this.instance_8}]},5).to({state:[{t:this.instance_9}]},5).to({state:[{t:this.instance_8}]},5).to({state:[]},1).wait(38));
 
 	// Calque_10
-	this.instance_10 = new lib.CachedTexturedBitmap_39();
+	this.instance_10 = new lib.CachedTexturedBitmap_181();
 	this.instance_10.parent = this;
 	this.instance_10.setTransform(-8.3,-18.1,0.5,0.5);
 	this.instance_10._off = true;
@@ -1097,7 +1097,7 @@ p.nominalBounds = new cjs.Rectangle(0,1.5,149.6,20.9);
 	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(19).to({_off:false},0).to({_off:true},20).wait(38));
 
 	// Calque_11
-	this.instance_11 = new lib.CachedTexturedBitmap_40();
+	this.instance_11 = new lib.CachedTexturedBitmap_182();
 	this.instance_11.parent = this;
 	this.instance_11.setTransform(-16.6,-13.05,0.5,0.5);
 	this.instance_11._off = true;
@@ -1113,25 +1113,25 @@ p.nominalBounds = new cjs.Rectangle(0,1.5,149.6,20.9);
 	this.timeline.addTween(cjs.Tween.get(this.oblong_3).to({rotation:-90,x:-0.5,y:0.35},4).to({rotation:-180,x:-0.55,y:0.4},5).to({rotation:-270,x:-0.5,y:0.45},5).to({rotation:-353.5492,y:0.4},5).to({_off:true},1).wait(57));
 
 	// Calque_3
-	this.instance_12 = new lib.CachedTexturedBitmap_38();
+	this.instance_12 = new lib.CachedTexturedBitmap_180();
 	this.instance_12.parent = this;
 	this.instance_12.setTransform(-8.3,-11.25,0.5,0.5);
 
-	this.instance_13 = new lib.CachedTexturedBitmap_37();
+	this.instance_13 = new lib.CachedTexturedBitmap_179();
 	this.instance_13.parent = this;
 	this.instance_13.setTransform(-8.3,-11.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_12}]}).to({state:[{t:this.instance_13}]},4).to({state:[{t:this.instance_12}]},5).to({state:[{t:this.instance_13}]},5).to({state:[{t:this.instance_12}]},5).to({state:[]},1).wait(57));
 
 	// Calque_5
-	this.instance_14 = new lib.CachedTexturedBitmap_39();
+	this.instance_14 = new lib.CachedTexturedBitmap_181();
 	this.instance_14.parent = this;
 	this.instance_14.setTransform(-8.3,-18.1,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_14).to({_off:true},20).wait(57));
 
 	// Calque_2
-	this.instance_15 = new lib.CachedTexturedBitmap_40();
+	this.instance_15 = new lib.CachedTexturedBitmap_182();
 	this.instance_15.parent = this;
 	this.instance_15.setTransform(-16.6,-13.05,0.5,0.5);
 
@@ -1150,7 +1150,7 @@ p.nominalBounds = new cjs.Rectangle(-16.6,-18.1,30.5,30.400000000000002);
 	this.instance.setTransform(15.3,1.9);
 	this.instance.alpha = 0.25;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_12();
+	this.instance_1 = new lib.CachedTexturedBitmap_154();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-128.9,-34.65,3.0958,3.0958);
 
@@ -1203,7 +1203,7 @@ p.nominalBounds = new cjs.Rectangle(-16.6,-18.1,30.5,30.400000000000002);
 	this.aiguille.parent = this;
 	this.aiguille.setTransform(3.2,-0.8);
 
-	this.instance = new lib.CachedTexturedBitmap_11();
+	this.instance = new lib.CachedTexturedBitmap_153();
 	this.instance.parent = this;
 	this.instance.setTransform(2.3,-23.25,0.854,0.854);
 
@@ -1430,14 +1430,14 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-108.4,18.8,126.7);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_6},{t:this.text_5},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1}]}).wait(1));
 
 	// Calque_3
-	this.instance = new lib.CachedTexturedBitmap_5();
+	this.instance = new lib.CachedTexturedBitmap_147();
 	this.instance.parent = this;
 	this.instance.setTransform(102,105.65,0.5018,0.5018);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Calque_5
-	this.instance_1 = new lib.CachedTexturedBitmap_6();
+	this.instance_1 = new lib.CachedTexturedBitmap_148();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(225,8.75,0.5018,0.5018);
 
@@ -1455,7 +1455,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-108.4,18.8,126.7);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).wait(1));
 
 	// Calque_1
-	this.instance_4 = new lib.CachedTexturedBitmap_7();
+	this.instance_4 = new lib.CachedTexturedBitmap_149();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(84.55,-0.3,0.5018,0.5018);
 
@@ -1549,14 +1549,14 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-108.4,18.8,126.7);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_2},{t:this.text_1},{t:this.text}]}).wait(1));
 
 	// Calque_3
-	this.instance_1 = new lib.CachedTexturedBitmap_8();
+	this.instance_1 = new lib.CachedTexturedBitmap_150();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(96.1,-16.7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// Calque_5
-	this.instance_2 = new lib.CachedTexturedBitmap_9();
+	this.instance_2 = new lib.CachedTexturedBitmap_151();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(96.1,-12.45,0.5,0.5);
 
@@ -3546,11 +3546,11 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-108.4,18.8,126.7);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Copyright_2
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Times New Roman'");
-	this.text.lineHeight = 8;
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
+	this.text.lineHeight = 11;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
-	this.text.setTransform(404.45,379.5);
+	this.text.setTransform(411.5,376.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
@@ -3573,7 +3573,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-108.4,18.8,126.7);
 	this.timeline.addTween(cjs.Tween.get(this.text_2).wait(1));
 
 	// Souligné
-	this.instance = new lib.CachedTexturedBitmap_1();
+	this.instance = new lib.CachedTexturedBitmap_143();
 	this.instance.parent = this;
 	this.instance.setTransform(177.75,19,0.5,0.5);
 
@@ -3894,14 +3894,14 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-108.4,18.8,126.7);
 	this.homme.parent = this;
 	this.homme.setTransform(519.85,372.85,0.713,0.713,0,0,180);
 
-	this.instance_15 = new lib.CachedTexturedBitmap_2();
+	this.instance_15 = new lib.CachedTexturedBitmap_144();
 	this.instance_15.parent = this;
 	this.instance_15.setTransform(351.6,136.1,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_15},{t:this.homme}]}).wait(1));
 
 	// Cadre
-	this.instance_16 = new lib.CachedTexturedBitmap_3();
+	this.instance_16 = new lib.CachedTexturedBitmap_145();
 	this.instance_16.parent = this;
 	this.instance_16.setTransform(0,0,0.5,0.5);
 
@@ -3989,7 +3989,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"Canvas/Regulation_testiculaire/Regulation_testiculaire_atlas_.png?1652468945232", id:"Regulation_testiculaire_atlas_"}
+		{src:"Canvas/Regulation_testiculaire/Regulation_testiculaire_atlas_.png", id:"Regulation_testiculaire_atlas_"}
 	],
 	preloads: []
 };

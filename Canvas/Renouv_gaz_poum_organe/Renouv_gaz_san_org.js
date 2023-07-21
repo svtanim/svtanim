@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Renouv_gaz_san_org_atlas_", frames: [[552,800,515,292],[1044,1094,34,19],[552,1094,438,284],[0,800,550,552],[1100,607,550,552],[0,0,1098,798],[0,1354,343,2],[0,1358,282,2],[1100,0,605,605],[992,1094,50,18]]}
+		{name:"Renouv_gaz_san_org_atlas_", frames: [[0,0,1098,798],[0,1354,343,46],[1100,607,550,552],[0,800,550,552],[1100,0,605,605],[345,1354,50,18],[552,800,515,292],[345,1374,34,19],[552,1094,438,284]]}
 ];
 
 
@@ -11,72 +11,65 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_13 = function() {
+(lib.CachedTexturedBitmap_233 = function() {
 	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_14 = function() {
+(lib.CachedTexturedBitmap_234 = function() {
 	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_15 = function() {
+(lib.CachedTexturedBitmap_235 = function() {
 	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_17 = function() {
+(lib.CachedTexturedBitmap_236 = function() {
 	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_18 = function() {
+(lib.CachedTexturedBitmap_237 = function() {
 	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_19 = function() {
+(lib.CachedTexturedBitmap_239 = function() {
 	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_20 = function() {
+(lib.CachedTexturedBitmap_240 = function() {
 	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_21 = function() {
+(lib.CachedTexturedBitmap_241 = function() {
 	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_7 = function() {
+(lib.CachedTexturedBitmap_242 = function() {
 	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
 	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedTexturedBitmap_9 = function() {
-	this.initialize(ss["Renouv_gaz_san_org_atlas_"]);
-	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -101,7 +94,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_15();
+	this.instance = new lib.CachedTexturedBitmap_242();
 	this.instance.parent = this;
 	this.instance.setTransform(-109.5,-70.9,0.5,0.5);
 
@@ -114,7 +107,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_14();
+	this.instance = new lib.CachedTexturedBitmap_241();
 	this.instance.parent = this;
 	this.instance.setTransform(-8.5,-4.8,0.5,0.5);
 
@@ -128,7 +121,7 @@ p.nominalBounds = new cjs.Rectangle(-8.5,-4.8,17,9.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Mvt_muscle
-	this.instance = new lib.CachedTexturedBitmap_13();
+	this.instance = new lib.CachedTexturedBitmap_240();
 	this.instance.parent = this;
 	this.instance.setTransform(-163.5,-118.25,0.6559,0.6559);
 
@@ -141,7 +134,7 @@ p.nominalBounds = new cjs.Rectangle(-8.5,-4.8,17,9.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_9();
+	this.instance = new lib.CachedTexturedBitmap_239();
 	this.instance.parent = this;
 	this.instance.setTransform(-14.95,-10.75,0.5,0.5);
 
@@ -154,7 +147,7 @@ p.nominalBounds = new cjs.Rectangle(-8.5,-4.8,17,9.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_9();
+	this.instance = new lib.CachedTexturedBitmap_239();
 	this.instance.parent = this;
 	this.instance.setTransform(-14.95,-10.75,0.5,0.5);
 
@@ -168,7 +161,7 @@ p.nominalBounds = new cjs.Rectangle(-14.9,-10.7,25,9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Calque_1
-	this.instance = new lib.CachedTexturedBitmap_7();
+	this.instance = new lib.CachedTexturedBitmap_237();
 	this.instance.parent = this;
 	this.instance.setTransform(-648.2,-648.2,2.1416,2.1416);
 
@@ -320,11 +313,11 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-182.6,186.8,326);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Copyright
-	this.text = new cjs.Text("F. Pellegrin   Collège L de Vinci. Montauroux \nhttp://svtanim.pagesperso-orange.fr/", "italic 5px 'Times New Roman'");
-	this.text.lineHeight = 8;
+	this.text = new cjs.Text("F. Pellegrin\nhttps://svtanim.fr", "italic 9px 'Times New Roman'");
+	this.text.lineHeight = 11;
 	this.text.lineWidth = 104;
 	this.text.parent = this;
-	this.text.setTransform(438.05,375.4);
+	this.text.setTransform(444,335.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
@@ -338,22 +331,18 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-182.6,186.8,326);
 	this.timeline.addTween(cjs.Tween.get(this.text_1).wait(1));
 
 	// Cadre
-	this.instance = new lib.CachedTexturedBitmap_19();
+	this.instance = new lib.CachedTexturedBitmap_233();
 	this.instance.parent = this;
 	this.instance.setTransform(0.5,0.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Souligné
-	this.instance_1 = new lib.CachedTexturedBitmap_21();
+	this.instance_1 = new lib.CachedTexturedBitmap_234();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(7.25,42.75,0.5,0.5);
+	this.instance_1.setTransform(6.5,21,0.5,0.5);
 
-	this.instance_2 = new lib.CachedTexturedBitmap_20();
-	this.instance_2.parent = this;
-	this.instance_2.setTransform(6.5,21,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// Titre
 	this.text_2 = new cjs.Text("LE RENOUVELLEMENT DES GAZ DU SANG", "bold 14px 'Arial Black'");
@@ -458,11 +447,11 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-182.6,186.8,326);
 	this.timeline.addTween(cjs.Tween.get(this.m).wait(1));
 
 	// Cercle_vaisseau
-	this.instance_3 = new lib.CachedTexturedBitmap_17();
-	this.instance_3.parent = this;
-	this.instance_3.setTransform(127.5,42.4,0.5,0.5);
+	this.instance_2 = new lib.CachedTexturedBitmap_235();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(127.5,42.4,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
 
 	// Vaisseau (mask)
 	var mask = new cjs.Shape();
@@ -485,11 +474,11 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-182.6,186.8,326);
 	this.timeline.addTween(cjs.Tween.get(this.cercle).wait(1));
 
 	// Muscle
-	this.instance_4 = new lib.Mouvmuscle();
-	this.instance_4.parent = this;
-	this.instance_4.setTransform(268.9,40.4,0.7623,0.5666,15,0,0,5.4,-22.6);
+	this.instance_3 = new lib.Mouvmuscle();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(268.9,40.4,0.7623,0.5666,15,0,0,5.4,-22.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
 	// Rectangle
 	this.rectangle = new lib.Rectangle();
@@ -500,14 +489,14 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-182.6,186.8,326);
 	this.timeline.addTween(cjs.Tween.get(this.rectangle).wait(1));
 
 	// Vaisseau
-	this.instance_5 = new lib.CachedTexturedBitmap_18();
-	this.instance_5.parent = this;
-	this.instance_5.setTransform(127.5,42.4,0.5,0.5);
+	this.instance_4 = new lib.CachedTexturedBitmap_236();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(127.5,42.4,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(275.5,154.8,274,248.39999999999998);
+p.nominalBounds = new cjs.Rectangle(275.5,154.8,274.5,248.39999999999998);
 // library properties:
 lib.properties = {
 	id: '3D599B830D37AC4687B759E0D3E35B5A',
