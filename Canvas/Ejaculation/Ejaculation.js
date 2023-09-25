@@ -2114,8 +2114,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"Canvas/ejaculation/Ejaculation_atlas_.png", id:"Ejaculation_atlas_"},
-		{src:"Canvas/ejaculation/Ejaculation_atlas_2.png", id:"Ejaculation_atlas_2"}
+		{src:"Canvas/Ejaculation/Ejaculation_atlas_.png", id:"Ejaculation_atlas_"},
+		{src:"Canvas/Ejaculation/Ejaculation_atlas_2.png", id:"Ejaculation_atlas_2"}
 	],
 	preloads: []
 };
