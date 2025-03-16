@@ -3434,7 +3434,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"Glycemie_atlas_.png?1742123051575", id:"Glycemie_atlas_"}
+		{src:"Canvas/Glycemie/Glycemie_atlas_.png?1742123051575", id:"Glycemie_atlas_"}
 	],
 	preloads: []
 };
