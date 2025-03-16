@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Glycemie_atlas_", frames: [[1904,608,114,112],[1870,259,155,167],[1967,428,2,24],[1434,609,285,6],[2044,0,2,535],[2044,537,1,1],[1888,495,20,20],[1888,477,11,12],[1853,259,8,13],[1910,500,19,18],[2027,412,8,13],[1931,500,19,18],[1837,313,27,9],[1768,0,270,257],[1434,520,330,87],[2037,388,2,27],[1866,313,2,27],[1100,657,530,2],[0,0,1098,800],[1801,283,34,39],[1974,428,68,113],[1870,451,29,24],[1837,283,31,28],[2036,259,6,127],[1768,259,83,22],[1919,458,15,40],[1870,428,63,21],[1870,477,16,41],[1901,451,16,42],[2007,543,31,46],[1974,543,31,46],[1935,428,30,28],[1768,283,31,46],[1100,0,332,655],[1434,0,332,344],[1936,458,22,24],[1766,608,136,111],[1801,324,61,16],[1766,520,206,86],[2040,543,5,115],[1434,346,434,172],[2027,259,7,151]]}
+		{name:"Glycemie_atlas_", frames: [[1904,608,114,112],[1870,259,155,167],[1967,428,2,24],[1434,609,285,6],[2044,0,2,535],[2044,537,1,1],[1888,495,20,20],[1888,477,11,12],[2027,412,8,13],[1931,500,19,18],[1853,259,8,13],[1910,500,19,18],[1837,313,27,9],[1768,0,270,257],[1434,520,330,87],[1866,313,2,27],[2037,388,2,27],[1100,657,530,2],[0,0,1098,800],[1801,283,34,39],[1974,428,68,113],[1870,451,29,24],[1837,283,31,28],[2036,259,6,127],[1768,259,83,22],[1919,458,15,40],[1870,428,63,21],[1870,477,16,41],[1901,451,16,42],[1974,543,31,46],[2007,543,31,46],[1935,428,30,28],[1768,283,31,46],[1100,0,332,655],[1434,0,332,344],[1936,458,22,24],[1766,608,136,111],[1801,324,61,16],[1766,520,206,86],[2040,543,5,115],[1434,346,434,172],[2027,259,7,151]]}
 ];
 
 
@@ -1542,7 +1542,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 		setTimeout(function()
 				{boutonActif();
 				}, 2800);
-				//alert("zozozo");
+				
 		};
 		boutonInactif();
 		boutonActive();
@@ -1785,7 +1785,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			glucose();
 			pancreasSorti = 0;
 			};*/
-		function glucoseGreffe() 	//Fait
+		function glucoseGreffe() 	//Fait//	FAIT 15 03 2025
 			{
 			vitesse = -3;
 			delaiTween = 0;
@@ -1800,12 +1800,12 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			};	
 			
 			
-		function glucoseAblation() 	//Fait
+		function glucoseAblation() 	//Fait //	FAIT 15 03 2025
 			{
 			vitesse = -3;
 			delaiTween = 0;
 			a1 = -28;
-			a2 = 2400;
+			a2 = 100;
 			a3 = -28;
 			a4 = 0;
 			a5 = -28;
@@ -1814,39 +1814,27 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			pancreasSorti = 1;
 			
 		};
-		function glucoseInjAblation() {		//Pas utilisé
-			vitesse = -3;
-			delaiTween = 0;
-			a1 = 2950;
-			a2 = 0;
-			a3 = -55;
-			a4 = 0;
-			a5 = -55;
-			a6 = 0;
-			glucose();
-			pancreasSorti = 1;
-		};
 		
-		function glucoseInjGlucagonPoche()		//Fait
+		function glucoseInjGlucagonPoche()		//Fait//FINI 15 03 20025
 		{
 			vitesse = -3;
 			delaiTween = 0;
-			a1 = 0;	
-			a2 = 250;
-			a3 = -50;
-			//a4 = 200;
-			a4 = 100;
-			a5 = -35;
-			a6 = 500;
+			a1 = -28;	
+			a2 = 50;
+			a3 = -28;
+			a4 = 300;
+			a5 = -15;
+			a6 = 350;
 			glucose();
+			
 			};
 		
-		function glucoseInjGlucagonPocheAblation()		//Fait
+		function glucoseInjGlucagonPocheAblation()		//Fait//FINI 15 03 20025
 		{
 			vitesse = -3;
 			delaiTween = 0;
 			a1 = 0;	
-			a2 = 250;
+			a2 = 0;
 			a3 = -50;
 			a4 = 200;
 			a5 = -50;
@@ -1857,11 +1845,11 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			
 		
 		
-		function glucoseInjGlucosePoche()		//Fait //Fait
+		function glucoseInjGlucosePoche()		//Fait //Fait //FINI 15 03 20025
 			{
 			vitesse = -3;
 			delaiTween = 0;
-			a1 = -25;	
+			a1 = -15;
 			a2 = 0;
 			a3 = -15;
 			a4 = 520;
@@ -1870,11 +1858,11 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			glucose();
 			};	
 			
-		function glucoseInjGlucosePocheAblation()		//Fait//Fait
+		function glucoseInjGlucosePocheAblation()		//Fait//Fait //FINI 15 03 20025
 			{
 			vitesse = -3;
 			delaiTween = 0;
-			a1 = -25;	
+			a1 = 0;	
 			a2 = 0;
 			a3 = -20;
 			a4 = 520;
@@ -1885,26 +1873,26 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			
 			
 			
-		function glucoseInjInsulinePoche()		//Fait
+		function glucoseInjInsulinePoche()		//Fait  //FINI 15 03 20025
 			{
 			vitesse = -3;
 			delaiTween = 0;
 			a1 = 0;	
-			a2 = 50;
-			a3 = 12;
-			a4 = 150;
+			a2 = 0;
+			a3 = 8;
+			a4 = 15;
 			a5 = 8;
 			a6 = 500;
 			glucose();
 			};
 			
-		function glucoseInjInsulinePocheAblation()		//Fait
+		function glucoseInjInsulinePocheAblation()		//Fait//FINI 15 03 20025
 			{
 			vitesse = -3;
 			delaiTween = 0;
-			a1 = a5;	
-			a2 = 220;
-			a3 = 10;
+			a1 = 8;	
+			a2 = 0;
+			a3 = 8;
 			a4 = 500;
 			a5 = 8;
 			a6 = 500;
@@ -1916,7 +1904,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			
 			
 			
-		function glucoseInjGlucoseChien()	// Fait mais voir le délai. Correspond au test de la boisson.
+		function glucoseInjGlucoseChien()	// Fait mais voir le délai. Correspond au test de la boisson.//	FINI 15 03 20025
 			{
 			vitesse = -3;
 			delaiTween = 0;
@@ -1925,22 +1913,22 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			a3 = -38;
 			a4 = 300;
 			a5 = 0;
-			a6 = 2200;
+			a6 = 700;
 			glucose();
 			};
 			
-		function glucoseInjGlucoseChienAblation()	// Fait. Attention, devrait monter plus si résultat après ablation.
+		function glucoseInjGlucoseChienAblation()	// Fait. Attention, devrait monter plus si résultat après ablation.//FINI 15 03 20025
 			{
 			vitesse = -3;
 			delaiTween = 0;
-			a1 = -55;	
+			a1 = -51;	
 			a2 = 0;
 			a3 = -51;
 			a4 = 400;
 			a5 = -47;
 			a6 = 900;
 			glucose();
-			};
+				};
 			
 		
 			
@@ -1976,7 +1964,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			insuline();
 		};
 		
-		function insulineAblation()  	//Fait
+		function insulineAblation()  	//FINI 15 03 20025
 		{
 			pancreasSorti = 1;
 			delaiTween = 0;
@@ -1991,7 +1979,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 		};	
 		
 		
-		function insulineGreffe() 	//Fait
+		function insulineGreffe() 	//Fait//FINI 15 03 20025
 		{
 			pancreasSorti = 0;
 			pancreasEnPlace = 0;
@@ -2004,9 +1992,10 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			b5 = 0;
 			b6 = 900;
 			insuline();
+			
 		};
 		
-		function insulineInjAblation()		//Fait
+		function insulineInjAblation()		//Fait//FINI 15 03 20025
 		{
 			delaiTween = 0;
 			pancreasSorti = 1;
@@ -2020,10 +2009,10 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			insuline();
 		};
 		
-		function insulineInjGlucosePoche() 	//Fait
+		function insulineInjGlucosePoche() 	//Fait//FINI 15 03 20025
 		{
 			delaiTween = 0;
-			b1 = 0;
+			b1 = -30;
 			b2 = 50;
 			b3 = -30;
 			b4 = 220;
@@ -2031,13 +2020,14 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			b6 = 900;
 			vitesse = -3;
 			insuline();
+			
 		};
 		
 		
-		function insulineInjPoche() 	//Fait
+		function insulineInjPoche() 	//Fait//FINI 15 03 20025
 		{
 			delaiTween = 0;
-			b1 = -25;
+			b1 = -15;
 			b2 = 30;
 			b3 = -15;
 			b4 = 500;
@@ -2048,11 +2038,12 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 		};
 		
 		
-		function insulineInjGlucagonPoche()		//Fait
+		function insulineInjGlucagonPoche()		//Fait//FINI 15 03 20025
 		{
 			b1 = 0;
-			b2 = 350;
-			b3 = -30;
+			//b1 = -15;
+			b2 = 400;
+			b3 = -15;
 			b4 = 100;
 			b5 = -15;
 			b6 = 500;
@@ -2061,15 +2052,15 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			insuline();
 		};
 		
-		function insulineInjGlucoseChien() 	//Fait mais voir le délai. Correspond au test de la boisson.
+		function insulineInjGlucoseChien() 	//Fait mais voir le délai. Correspond au test de la boisson.//FINI 15 03 20025
 		{
 			delaiTween = 0;
 			b1 = 0;
-			b2 = 50;
+			b2 = 0;
 			b3 = -30;
-			b4 = 300;
+			b4 = 50;
 			b5 = 0;
-			b6 = 2200;
+			b6 = 1000;
 			vitesse = -3;
 			insuline();
 		};
@@ -2079,7 +2070,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 		//---------------------------------------------------------------------------------------------------
 		
 		
-		function glucagonInjGlucagonPoche()		//Fait 
+		function glucagonInjGlucagonPoche()		//Fait //FINI 15 03 20025
 		{
 			
 			c1 = -15;
@@ -2134,7 +2125,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			vitesse = -3;
 			glucagon(); 
 		};*/
-		function glucagonAblation() 		//Fait 
+		function glucagonAblation() 		//Fait //FINI 15 03 20025
 		{
 			delaiTween = 0;
 			c1 = 29;
@@ -2148,7 +2139,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			glucagon(); 
 		};
 		
-		function glucagonInjGlucosePoche()		//Fait 
+		function glucagonInjGlucosePoche()		//Fait //FINI 15 03 20025
 		{
 			delaiTween = 0;
 			c1 = 0;
@@ -2161,20 +2152,20 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			glucagon(); 
 		};
 		
-		function glucagonInjGlucoseChien() 	//Fait mais voir le délai. Correspond au test de la boisson.
+		function glucagonInjGlucoseChien() 	//Fait mais voir le délai. Correspond au test de la boisson.//FINI 15 03 20025
 		{
 			delaiTween = 0;
-			c1 = 0;
+			c1 = 26;
 			c2 = 120;
 			c3 = 26;
-			c4 = 350;
+			c4 = 850;
 			c5 = 0;
-			c6 = 2200;
+			c6 = 1000;
 			
 			vitesse = -3;
 			glucagon(); 
 		};
-		function glucagonInjInsulinePoche() //Fait
+		function glucagonInjInsulinePoche() //Fait//FINI 15 03 20025
 		{
 			delaiTween = 0;
 			c1 = 0;
@@ -2422,8 +2413,13 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 		clearTimRemoveEtTicker();
 		
 		
+		
+		
+		
 		function verifGlobale()
 		{
+			
+			//app.texte1.text = "rst= "+rst;
 			delaiStopTween = 3000;
 			if (liquideVider!=0)
 			{
@@ -2465,19 +2461,40 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 				setTimeout(function()
 				{chienComa();
 				}, 2000);
+			}  
+			
+			if (rst == 12)	// Greffe pancréas. Injection insuline dans la poche. Le tout en même temps
+			{
+				rst = 10;
 			}
+			
 			if (rst == 21)	// Ablation pancréas. Injection glucagon dans la poche.
 			{
 				glucoseInjGlucagonPocheAblation();	
 				insulineAblation(); 
 				glucagonInjGlucagonPoche(); 
 			}
+			if (rst == 22)	// Greffe pancréas. Injection glucagon dans la poche. Le tout en même temps
+			{
+				rst = 20;
+			}
+			
 			if (rst == 31)	// Ablation pancréas. Injection glucose dans la poche.
 			{
 				glucoseInjGlucosePocheAblation();
 				insulineAblation();
 				glucagonAblation();
 			}
+			if (rst == 32)	// Greffe pancréas. Injection glucose dans la poche. Le tout en même temps.
+			{
+				insulineInjGlucosePoche();
+				glucagonInjGlucoseChien()
+				glucoseInjGlucosePoche();
+				
+			}
+			
+			
+			
 			
 			if (rst == 41)	// Ablation pancréas. Injection glucose chez le chien.
 			{
@@ -2486,7 +2503,12 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 				glucagonAblation(); 
 			}
 			
-			
+			if (rst == 42 )
+			{
+			glucagonInjGlucoseChien() ;
+			glucoseInjGlucoseChien();
+			insulineInjGlucoseChien();
+			}
 			
 			if (rst == 40 )	// Pancréas en place. Injection glucose chez le chien
 			{
@@ -2495,7 +2517,10 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			insulineInjGlucoseChien();
 			}
 			
-			if (rst == 30 )	// Pancréas en place. Injection glucose dans la poche
+				
+			
+			
+			if (rst == 30 ) 	// Pancréas en place. Injection glucose dans la poche
 		
 			{
 			insulineInjGlucosePoche();
@@ -2716,6 +2741,10 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			
 		};
 		
+		
+		
+		
+		
 		var g21 = tick2.bind(app);
 		
 		app.seringue.addEventListener("mousedown", fctTT.bind(app));
@@ -2770,6 +2799,8 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 		};
 		function tick2()
 		{
+			//app.texte1.text = "rst= "+rst;
+			
 			app.boutonViderSer.x = this.seringue.x + 20;
 			app.boutonViderSer.y = this.seringue.y - 50;
 			app.boutonRemplirSer.x = this.seringue.x + 20;
@@ -2855,7 +2886,7 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 			}
 				
 		
-			app.texte1.text = "rst= "+rst;
+			
 			
 			
 			
@@ -3025,9 +3056,9 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Titre
-	this.text_5 = new cjs.Text("LA REGULATION DE LA GLYCEMIE", "16px 'Times New Roman'", "#FF0000");
+	this.text_5 = new cjs.Text("LA REGULATION DE LA GLYCEMIE.", "16px 'Times New Roman'", "#FF0000");
 	this.text_5.lineHeight = 20;
-	this.text_5.lineWidth = 269;
+	this.text_5.lineWidth = 277;
 	this.text_5.parent = this;
 	this.text_5.setTransform(15,8.65);
 
@@ -3041,6 +3072,16 @@ p.nominalBounds = new cjs.Rectangle(-6.4,-109.2,18.8,127.5);
 	this.text_6.setTransform(244.8,30.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.text_6).wait(1));
+
+	// bol
+	this.texte1 = new cjs.Text("", "italic 12px 'Times New Roman'", "#0000FF");
+	this.texte1.name = "texte1";
+	this.texte1.lineHeight = 15;
+	this.texte1.lineWidth = 74;
+	this.texte1.parent = this;
+	this.texte1.setTransform(346,95.2);
+
+	this.timeline.addTween(cjs.Tween.get(this.texte1).wait(1));
 
 	// HitTest_poche_perfusion
 	this.poche = new lib.HitTestpocheperfusion();
@@ -3393,7 +3434,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"Canvas/Glycemie/Glycemie_atlas_.png?1738426637150", id:"Glycemie_atlas_"}
+		{src:"Glycemie_atlas_.png?1742123051575", id:"Glycemie_atlas_"}
 	],
 	preloads: []
 };
